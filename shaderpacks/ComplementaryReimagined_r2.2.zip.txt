@@ -1,0 +1,3 @@
+#Sun Dec 03 00:26:07 EET 2023
+LESS_LAVA_FOG=true
+BORDER_FOG=false

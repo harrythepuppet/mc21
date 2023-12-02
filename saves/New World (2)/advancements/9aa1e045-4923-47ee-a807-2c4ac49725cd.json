@@ -1,0 +1,135 @@
+{
+  "morevillagers:root": {
+    "criteria": {
+      "always": "2023-11-27 20:05:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-11-27 20:05:42 +0200"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_egg": {
+    "criteria": {
+      "has_eggs": "2023-11-27 20:05:42 +0200"
+    },
+    "done": true
+  },
+  "astikorcarts:recipes/supply_cart": {
+    "criteria": {
+      "has_wheel": "2023-11-27 20:05:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2023-11-27 20:07:01 +0200"
+    },
+    "done": true
+  },
+  "goety:goety/root": {
+    "criteria": {
+      "tick": "2023-11-27 20:05:42 +0200"
+    },
+    "done": true
+  },
+  "astikorcarts:recipes/plow": {
+    "criteria": {
+      "has_wheel": "2023-11-27 20:05:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2023-11-27 20:07:01 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "snowblossom_grove": "2023-11-27 20:05:43 +0200"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2023-11-27 20:05:42 +0200"
+    },
+    "done": true
+  },
+  "nethers_exoticism:nethers_exoticism_adv": {
+    "criteria": {
+      "nethers_exoticism_adv": "2023-11-27 20:05:41 +0200"
+    },
+    "done": true
+  },
+  "delightful:recipes/cooking/green_tea_leaves": {
+    "criteria": {
+      "has_green_tea_leaves": "2023-11-27 20:07:08 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "snowblossom_grove": "2023-11-27 20:05:43 +0200",
+      "old_growth_dead_forest": "2023-11-27 20:06:14 +0200",
+      "dead_forest": "2023-11-27 20:10:08 +0200",
+      "snowy_coniferous_forest": "2023-11-27 20:10:09 +0200",
+      "snowy_maple_woods": "2023-11-27 20:10:39 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2023-11-27 20:07:01 +0200"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2023-11-27 20:05:42 +0200"
+    },
+    "done": true
+  },
+  "astikorcarts:recipes/animal_cart": {
+    "criteria": {
+      "has_wheel": "2023-11-27 20:05:42 +0200"
+    },
+    "done": true
+  },
+  "delightful:recipes/food/cooking/coconut_curry_no_ginger": {
+    "criteria": {
+      "has_tea": "2023-11-27 20:07:08 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2023-11-27 20:05:42 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/stick_from_twig": {
+    "criteria": {
+      "has_item": "2023-11-27 20:07:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2023-11-27 20:08:12 +0200",
+      "minecraft:frozen_river": "2023-11-27 20:09:58 +0200",
+      "minecraft:snowy_beach": "2023-11-27 20:11:54 +0200"
+    },
+    "done": false
+  },
+  "apotheosis:give_book": {
+    "criteria": {
+      "tick": "2023-11-27 20:05:42 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

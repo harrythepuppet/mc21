@@ -1,0 +1,196 @@
+---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
+
+Time: 2023-11-27 11:10:55
+Description: Encountered exception while building chunk meshes
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118367_(double)" because "sprite" is null
+	at me.jellysquid.mods.sodium.client.render.chunk.compile.pipeline.FluidRenderer.render(FluidRenderer.java:340) ~[rubidium-mc1.20.1-0.7.1.jar%23222!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.oculus.compat.sodium.json:separate_ao.MixinFluidRenderer,pl:mixin:A}
+	at me.jellysquid.mods.sodium.client.render.chunk.compile.tasks.ChunkBuilderMeshingTask.execute(ChunkBuilderMeshingTask.java:125) ~[rubidium-mc1.20.1-0.7.1.jar%23222!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.oculus.compat.sodium.json:block_id.MixinChunkRenderRebuildTask,pl:mixin:A}
+	at me.jellysquid.mods.sodium.client.render.chunk.compile.tasks.ChunkBuilderMeshingTask.execute(ChunkBuilderMeshingTask.java:45) ~[rubidium-mc1.20.1-0.7.1.jar%23222!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.oculus.compat.sodium.json:block_id.MixinChunkRenderRebuildTask,pl:mixin:A}
+	at me.jellysquid.mods.sodium.client.render.chunk.compile.executor.ChunkJobTyped.execute(ChunkJobTyped.java:44) ~[rubidium-mc1.20.1-0.7.1.jar%23222!/:?] {re:computing_frames,re:classloading}
+	at me.jellysquid.mods.sodium.client.render.chunk.compile.executor.ChunkBuilder$WorkerRunnable.run(ChunkBuilder.java:186) ~[rubidium-mc1.20.1-0.7.1.jar%23222!/:?] {re:classloading}
+	at java.lang.Thread.run(Thread.java:833) ~[?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mod: 
+	Rubidium (rubidium), Version: 0.7.1
+		at TRANSFORMER/rubidium@0.7.1/me.jellysquid.mods.sodium.client.render.chunk.compile.pipeline.FluidRenderer.render(FluidRenderer.java:340)
+Stacktrace:
+	at me.jellysquid.mods.sodium.client.render.chunk.compile.pipeline.FluidRenderer.render(FluidRenderer.java:340) ~[rubidium-mc1.20.1-0.7.1.jar%23222!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.oculus.compat.sodium.json:separate_ao.MixinFluidRenderer,pl:mixin:A}
+-- Block being rendered --
+Details:
+	Block: Block{minecraft:lava}[level=2]
+	Block location: World: (-65,87,158), Section: (at 15,7,14 in -5,5,9; chunk contains blocks -80,-64,144 to -65,319,159), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Chunk section: RenderSection at chunk (-5, 5, 9) from (-80, 80, 144) to (-65, 95, 159)
+	Render context volume: BoundingBox{minX=-82, minY=78, minZ=142, maxX=-63, maxY=97, maxZ=161}
+Stacktrace:
+	at me.jellysquid.mods.sodium.client.render.chunk.compile.tasks.ChunkBuilderMeshingTask.execute(ChunkBuilderMeshingTask.java:125) ~[rubidium-mc1.20.1-0.7.1.jar%23222!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.oculus.compat.sodium.json:block_id.MixinChunkRenderRebuildTask,pl:mixin:A}
+	at me.jellysquid.mods.sodium.client.render.chunk.compile.tasks.ChunkBuilderMeshingTask.execute(ChunkBuilderMeshingTask.java:45) ~[rubidium-mc1.20.1-0.7.1.jar%23222!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.oculus.compat.sodium.json:block_id.MixinChunkRenderRebuildTask,pl:mixin:A}
+	at me.jellysquid.mods.sodium.client.render.chunk.compile.executor.ChunkJobTyped.execute(ChunkJobTyped.java:44) ~[rubidium-mc1.20.1-0.7.1.jar%23222!/:?] {re:computing_frames,re:classloading}
+	at me.jellysquid.mods.sodium.client.render.chunk.compile.executor.ChunkBuilder$WorkerRunnable.run(ChunkBuilder.java:186) ~[rubidium-mc1.20.1-0.7.1.jar%23222!/:?] {re:classloading}
+	at java.lang.Thread.run(Thread.java:833) ~[?:?] {re:mixin}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [LocalPlayer['HarryThePuppet'/194, l='ClientLevel', x=7.50, y=109.00, z=21.50]]
+	Chunk stats: 728, 728
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (16,107,16), Section: (at 0,11,0 in 1,6,1; chunk contains blocks 16,-64,16 to 31,319,31), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 787 game time, 787 day time
+	Server brand: forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.ClientLevel.m_6026_(ClientLevel.java:455) ~[client-1.20.1-20230612.114412-srg.jar%23226!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:rubidium.mixins.json:core.world.biome.ClientWorldMixin,pl:mixin:APP:rubidium.mixins.json:core.world.map.ClientWorldMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:block_rendering.MixinClientLevel,pl:mixin:APP:entityculling.mixins.json:ClientWorldMixin,pl:mixin:APP:starlight.mixins.json:client.world.ClientLevelMixin,pl:mixin:APP:farsight.mixins.json:ClientWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91354_(Minecraft.java:2319) ~[client-1.20.1-20230612.114412-srg.jar%23226!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:735) ~[client-1.20.1-20230612.114412-srg.jar%23226!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[client-1.20.1.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.6.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.6.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.2.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 2
+	Reload reason: manual
+	Finished: Yes
+	Packs: vanilla, mod_resources, builtin/DAGoldenSwetBallFixClient, overrides_pack
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.3, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 2039313576 bytes (1944 MiB) / 3254779904 bytes (3104 MiB) up to 8053063680 bytes (7680 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 3600X 6-Core Processor             
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.80
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: Parsec Virtual Display Adapter
+	Graphics card #0 vendor: Parsec Cloud, Inc.
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: DriverVersion=0.41.0.0
+	Graphics card #1 name: AMD Radeon RX 5700 XT
+	Graphics card #1 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x731f
+	Graphics card #1 versionInfo: DriverVersion=31.0.14043.7000
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.00
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.00
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 32718.45
+	Virtual memory used (MB): 25173.72
+	Swap memory total (MB): 16383.50
+	Swap memory used (MB): 1717.98
+	JVM Flags: 10 total; -Xmx7680M -XX:MetaspaceSize=256M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M
+	Loaded Shaderpack: (off)
+	Launched Version: 1.20.1
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: AMD Radeon RX 5700 XT GL version 4.6.0 Core Profile Context 23.4.1.230326, ATI Technologies Inc.
+	Window size: 854x480
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: vanilla, mod_resources
+	Current Language: en_us
+	CPU: 4x AMD Ryzen 5 3600X 6-Core Processor 
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['HarryThePuppet'/194, l='ServerLevel[New World]', x=7.50, y=109.00, z=21.50]]
+	Data Packs: vanilla, mod:terrablender (incompatible), mod:forgeconfigscreens, mod:geckolib, mod:aether, mod:archbows (incompatible), mod:aeroblender (incompatible), mod:rubidium, mod:ancient_aether (incompatible), mod:curios (incompatible), mod:patchouli (incompatible), mod:oculus, mod:goety, mod:apotheotic_additions, mod:placebo (incompatible), mod:attributeslib (incompatible), mod:entityculling, mod:mixinextras (incompatible), mod:lost_aether_content, mod:immediatelyfast (incompatible), mod:cumulus_menus, mod:starlight (incompatible), mod:apotheosis (incompatible), mod:ec_apotheosis_plugin (incompatible), mod:ferritecore (incompatible), mod:cupboard (incompatible), mod:farsight_view (incompatible), mod:distanthorizons (incompatible), mod:bosses_of_mass_destruction, mod:betterf3, mod:nitrogen_internals, mod:memoryleakfix (incompatible), mod:framework, mod:cloth_config (incompatible), mod:forge, mod:deep_aether (incompatible), mod:aether_redux, mod:controllable (incompatible), mod:expanded_combat (incompatible), mod:structure_gel, builtin/DAGoldenSwetBallAetherReduxFix (incompatible), builtin/aether_accessories, builtin/aether_redux_compat (incompatible), builtin/aether_ruined_portal, builtin/aether_temporary_freezing, builtin/ancient_aether_default_biome_improvements, builtin/data/ancient_aether_data, builtin/data/deep_aether_data, builtin/lost_aether_content_compat (incompatible), builtin/lost_content_compat, packs/ancient_aether_new_worldgen
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.6.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.6.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.6.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.6.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.6.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		TerraBlender-forge-1.20.1-3.0.0.169.jar           |TerraBlender                  |terrablender                  |3.0.0.169           |DONE      |Manifest: NOSIGNATURE
+		ForgeConfigScreens-v8.0.2-1.20.1-Forge.jar        |Forge Config Screens          |forgeconfigscreens            |8.0.2               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		geckolib-forge-1.20.1-4.2.4.jar                   |GeckoLib 4                    |geckolib                      |4.2.4               |DONE      |Manifest: NOSIGNATURE
+		aether-1.20.1-1.0.0-beta.1.4-neoforge.jar         |The Aether                    |aether                        |1.20.1-1.0.0-beta.1.|DONE      |Manifest: NOSIGNATURE
+		archbows-1.1.8-1.20.1.jar                         |Arch Bows                     |archbows                      |1.1.8-1.20.1        |DONE      |Manifest: NOSIGNATURE
+		aeroblender-1.20.1-1.0.1-neoforge.jar             |AeroBlender                   |aeroblender                   |1.20.1-1.0.1-neoforg|DONE      |Manifest: NOSIGNATURE
+		rubidium-mc1.20.1-0.7.1.jar                       |Rubidium                      |rubidium                      |0.7.1               |DONE      |Manifest: NOSIGNATURE
+		ancient_aether-0.7.2.jar                          |Ancient Aether                |ancient_aether                |0.7.2               |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.4.2+1.20.1.jar                     |Curios API                    |curios                        |5.4.2+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		Patchouli-1.20.1-83-FORGE.jar                     |Patchouli                     |patchouli                     |1.20.1-83-FORGE     |DONE      |Manifest: NOSIGNATURE
+		oculus-mc1.20.1-1.6.9.jar                         |Oculus                        |oculus                        |1.6.9               |DONE      |Manifest: NOSIGNATURE
+		goety-2.5.2.1.jar                                 |Goety                         |goety                         |2.5.2.1             |DONE      |Manifest: NOSIGNATURE
+		apotheotic_additions1.2.jar                       |Apotheotic Additions          |apotheotic_additions          |1.1.5               |DONE      |Manifest: NOSIGNATURE
+		Placebo-1.20.1-8.5.8.jar                          |Placebo                       |placebo                       |8.5.8               |DONE      |Manifest: NOSIGNATURE
+		ApothicAttributes-1.20.1-1.2.0.jar                |Apothic Attributes            |attributeslib                 |1.2.0               |DONE      |Manifest: NOSIGNATURE
+		entityculling-forge-1.6.2-mc1.20.1.jar            |EntityCulling                 |entityculling                 |1.6.2               |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0-beta.9.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.9        |DONE      |Manifest: NOSIGNATURE
+		lost_aether_content-1.20.1-1.2.2.jar              |Aether: Lost Content          |lost_aether_content           |1.2.2               |DONE      |Manifest: NOSIGNATURE
+		ImmediatelyFast-1.2.7+1.20.2.jar                  |ImmediatelyFast               |immediatelyfast               |1.2.7+1.20.2        |DONE      |Manifest: NOSIGNATURE
+		cumulus_menus-1.20.1-1.0.0-beta.1-neoforge.jar    |Cumulus                       |cumulus_menus                 |1.20.1-1.0.0-beta.1-|DONE      |Manifest: NOSIGNATURE
+		starlight-1.1.2+forge.1cda73c.jar                 |Starlight                     |starlight                     |1.1.2+forge.1cda73c |DONE      |Manifest: NOSIGNATURE
+		Apotheosis-1.20.1-7.1.0.jar                       |Apotheosis                    |apotheosis                    |7.1.0               |DONE      |Manifest: NOSIGNATURE
+		ec_apotheosis_plugin-1.20.1-1.0.0-all.jar         |EC Compat for Apotheosis      |ec_apotheosis_plugin          |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		ferritecore-6.0.1-forge.jar                       |Ferrite Core                  |ferritecore                   |6.0.1               |DONE      |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		cupboard-1.20.1-2.1.jar                           |Cupboard utilities            |cupboard                      |1.20.1-2.1          |DONE      |Manifest: NOSIGNATURE
+		farsight-1.20.1-3.6.jar                           |Farsight mod                  |farsight_view                 |1.20.1-3.6          |DONE      |Manifest: NOSIGNATURE
+		DistantHorizons-2.0.0-a-1.20.1.jar                |Distant Horizons              |distanthorizons               |2.0.0-a             |DONE      |Manifest: NOSIGNATURE
+		BOMD-Forge-1.20.1-1.0.1.jar                       |Bosses of Mass Destruction    |bosses_of_mass_destruction    |1.0.1               |DONE      |Manifest: NOSIGNATURE
+		BetterF3-7.0.2-Forge-1.20.1.jar                   |BetterF3                      |betterf3                      |7.0.2               |DONE      |Manifest: NOSIGNATURE
+		nitrogen_internals-1.20.1-0.1.3-neoforge.jar      |Nitrogen                      |nitrogen_internals            |1.20.1-0.1.3-neoforg|DONE      |Manifest: NOSIGNATURE
+		memoryleakfix-forge-1.17+-1.1.2.jar               |Memory Leak Fix               |memoryleakfix                 |1.1.2               |DONE      |Manifest: NOSIGNATURE
+		framework-forge-1.20.1-0.6.16.jar                 |Framework                     |framework                     |0.6.16              |DONE      |Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		cloth-config-11.1.106-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.106            |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.2.6-universal.jar                 |Forge                         |forge                         |47.2.6              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		deep_aether-1.20.1-1.0.12.jar                     |Deep Aether                   |deep_aether                   |1.20.1-1.0.12       |DONE      |Manifest: NOSIGNATURE
+		aether-redux-1.3.3-1.20.1-neoforge.jar            |The Aether: Redux             |aether_redux                  |1.20.1              |DONE      |Manifest: NOSIGNATURE
+		controllable-forge-1.20.1-0.20.3.jar              |Controllable                  |controllable                  |0.20.3              |DONE      |Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		expanded_combat-1.20.1-2.8.1-all.jar              |Expanded Combat               |expanded_combat               |2.8.1               |DONE      |Manifest: NOSIGNATURE
+		structure_gel-1.20.1-2.15.1.jar                   |Structure Gel API             |structure_gel                 |2.15.1              |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 17ca90d2-30c9-4ef3-b822-59983946b95d
+	FML: 47.2
+	Forge: net.minecraftforge:47.2.6
