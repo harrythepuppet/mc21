@@ -46102,426 +46102,6 @@
         }
       },
       {
-        "name": "Nether's Overhaul",
-        "version": "Nether's Overhaul -1.20.1 1.3.0",
-        "optional": true,
-        "file": "Nether's Overhaul -1.20.1 1.3.0.jar",
-        "type": "mods",
-        "description": "👹A nether improve! with new mobs and equipment",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "curseForgeProjectId": 913476,
-        "curseForgeFileId": 4822008,
-        "curseForgeProject": {
-          "id": 913476,
-          "name": "Nether's Overhaul",
-          "authors": [
-            {
-              "id": 104074365,
-              "name": "Ninjatorrentt",
-              "url": "https://www.curseforge.com/members/104074365-ninjatorrentt?username=ninjatorrentt"
-            }
-          ],
-          "gameId": 432,
-          "summary": "👹A nether improve! with new mobs and equipment",
-          "categories": [
-            {
-              "name": "Armor, Tools, and Weapons",
-              "slug": "armor-weapons-tools",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/armor-weapons-tools",
-              "dateModified": "2014-05-08T17:44:39.057Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 434,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/47/635351498790409758.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            },
-            {
-              "name": "MCreator",
-              "slug": "mc-creator",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-creator",
-              "dateModified": "2021-05-10T11:13:12.27Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 4906,
-              "iconUrl": "https://media.forgecdn.net/avatars/380/489/637562419922532076.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            },
-            {
-              "name": "Mobs",
-              "slug": "world-mobs",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/world-gen/world-mobs",
-              "dateModified": "2014-05-08T17:46:59.507Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 411,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/53/635351500195070414.png",
-              "parentCategoryId": 406,
-              "classId": 6
-            }
-          ],
-          "status": 4,
-          "primaryCategoryId": 411,
-          "classId": 6,
-          "slug": "nethers-overhaul",
-          "isFeatured": false,
-          "dateModified": "2023-10-28T20:46:19.987Z",
-          "dateCreated": "2023-09-15T23:10:28.49Z",
-          "dateReleased": "2023-10-28T20:36:13.197Z",
-          "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/nethers-overhaul",
-            "wikiUrl": ""
-          },
-          "logo": {
-            "id": 896252,
-            "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/896/252/256/256/638341235650303309_animated.gif",
-            "title": "638341235650303309.gif",
-            "url": "https://media.forgecdn.net/avatars/896/252/638341235650303309.gif",
-            "modId": 913476
-          },
-          "allowModDistribution": true,
-          "screenshots": [],
-          "mainFileId": 4822008
-        },
-        "curseForgeFile": {
-          "id": 4822008,
-          "gameId": 432,
-          "isAvailable": true,
-          "displayName": "Nether's Overhaul -1.20.1 1.3.0",
-          "fileName": "Nether's Overhaul -1.20.1 1.3.0.jar",
-          "releaseType": 1,
-          "fileStatus": 4,
-          "fileDate": "2023-10-28T20:36:13.197Z",
-          "fileLength": 364352,
-          "dependencies": [],
-          "alternateFileId": 0,
-          "modules": [
-            {
-              "fingerprint": 1600981988,
-              "name": "META-INF"
-            },
-            {
-              "fingerprint": 1429902201,
-              "name": "assets"
-            },
-            {
-              "fingerprint": 3315715750,
-              "name": "data"
-            },
-            {
-              "fingerprint": 2563942470,
-              "name": "net"
-            },
-            {
-              "fingerprint": 3888393594,
-              "name": "pack.mcmeta"
-            }
-          ],
-          "isServerPack": false,
-          "hashes": [
-            {
-              "value": "64aea4ade1dc04c392895e289c8444625f716190",
-              "algo": 1
-            },
-            {
-              "value": "48ee53c22e1fa4a61c0b53a4cf2a2561",
-              "algo": 2
-            }
-          ],
-          "sortableGameVersions": [
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
-              "gameVersionName": "Client"
-            },
-            {
-              "gameVersionPadded": "0000000001.0000000020.0000000001",
-              "gameVersion": "1.20.1",
-              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
-              "gameVersionName": "1.20.1"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
-              "gameVersionName": "Forge"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
-              "gameVersionName": "Server"
-            }
-          ],
-          "gameVersions": [
-            "Client",
-            "1.20.1",
-            "Forge",
-            "Server"
-          ],
-          "fileFingerprint": 2787779822,
-          "modId": 913476
-        },
-        "modrinthProject": {
-          "id": "9cSaI7xV",
-          "slug": "nethers-overhaul",
-          "project_type": "mod",
-          "team": "jhJEOPw1",
-          "title": "Nether's Overhaul",
-          "description": "👹A nether improve! with new mobs and equipment",
-          "body": "<img src=\"https://media.discordapp.net/attachments/883020273744490527/1167894404296626288/netheroverhaullogo.png?ex=65623e6c&is=654fc96c&hm=44165aa98df5af1d3d3b228d9d77f26a2c6328a7ed34fdb7b6b136bb4741ddb4&=\" alt=\"logo title\">\n\n<br /><br />\n<center>\n<FONT size=\"5pt\">\n                    <p>This mod was made with mcreator (excuse me for my English I'm French)</p>\n</FONT>\n</center>\n\n                                         information: I advise to use JEI for recipes \n\n---\nAll mobs :\n</U>\n<br /><br />\n<img src=\"https://media.discordapp.net/attachments/883020273744490527/1167916836273266728/showallmobs.png?ex=654fde50&is=653d6950&hm=735d62176d4c83e18dd119ec7bb219f2d70889608ee3b69e775c2f8b3a5d65c1&=&width=960&height=452\" alt=\"all mobs\">\n<br /><br />\n\n<strong>basalt snail:</strong>\n- passive mob, found in basalt deltas biomes, drop 1 basalt, and 1 ember snail, if you feed it a warped mushroom it will give you a piece of shells\n\n \n\n<strong>Warped and Crimson Shroomling:</strong>\n- two totally passive adorable little creatures are very friendly, you can move them with a bucket\n\n \n\n<strong>Bruger:</strong> - extremely aggressive crowd, woe to those who are hit by an attack from the bruger, it paralyzes your body for 10 seconds, iron armor will not be enough for you (easter egg if we rename it with a name tag \"burger\" the model changes)\n\n \n\n<strong>Veneficus:</strong>\n- a very powerful little magician, has several attacks like, you cut your vision, levitate you and teleport you into lava, veneficus and a formidable enemy\n\n\n<strong>Soul Tracker: </strong> - aggressive mob, he runs very fast, if you hit him your vision will be cut\n\n<br /><br />\n---\nVeneficus hat :\n\n\n<img src=\"https://media.discordapp.net/attachments/883020273744490527/1167916835832872960/showveneficusarmor.png?ex=654fde50&is=653d6950&hm=5bcdeae60bbfc567befa7c412f44ad18b30d01aee4ae317cdf545589c27e25e7&=&width=429&height=676\" alt=\"Veneficus hat\">\n\n\n<br /><br />\n<strong>Veneficus Hat :</strong> - do you have more than 1 xp? , equip this hat to teleport anywhere, it will cost you a little XP, practical for pvp, 30 second cooldown\n<br /><br />\n<br /><br />\n<center>\n---\n<FONT size=\"5pt\">\nwarning : not all mod elements are displayed on the Modrinth page\n</FONT>\n\n</center>",
-          "published": "2023-07-06T16:20:56.333737Z",
-          "updated": "2023-11-08T14:08:56.365333Z",
-          "status": "approved",
-          "license": {
-            "id": "LicenseRef-All-Rights-Reserved",
-            "name": ""
-          },
-          "client_side": "required",
-          "server_side": "required",
-          "categories": [
-            "adventure",
-            "equipment",
-            "mobs"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/9cSaI7xV/6a05a5b4ea4c51a26fd22caaf4ae1b37fd07fd51.gif",
-          "discord_url": "https://discord.gg/YcJnyxDh6Z",
-          "donation_urls": [
-            {
-              "id": "ko-fi",
-              "platform": "Ko-fi",
-              "url": "https://ko-fi.com/ninjatorrentt"
-            }
-          ],
-          "gallery": [
-            {
-              "url": "https://cdn.modrinth.com/data/9cSaI7xV/images/4b7e53386b1532e5dba6c01b6b00026348cdaba0.png",
-              "featured": true,
-              "title": "title",
-              "description": "title",
-              "created": "2023-11-11T20:54:09.952464Z",
-              "ordering": 1.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/9cSaI7xV/images/4b0cb8886b4d7b1ff3d9056a46bef0331d0542a2.png",
-              "featured": false,
-              "title": "allmobs",
-              "description": "allmobs",
-              "created": "2023-11-11T20:54:40.231237Z",
-              "ordering": 2.0
-            }
-          ]
-        },
-        "modrinthVersion": {
-          "id": "WeEI1VNb",
-          "project_id": "9cSaI7xV",
-          "author_id": "4Zw6PUrW",
-          "name": "Nether's Overhaul -1.20.1 1.3.0",
-          "version_number": "1.3.0",
-          "changelog": "Additions :\n\n- Veneficus\n\n- Veneficus Hat\n\n-Cloth of Veneficus\n\n- Structure Veneficus house\n\n \n\nRemoved :\n\n- Nether bee",
-          "date_published": "2023-11-08T14:08:57.368540Z",
-          "version_type": "release",
-          "files": [
-            {
-              "hashes": {
-                "sha512": "43eea5efbdb42146bcd7fc750d60ae1ef677d11da6e7d2702d9eac4a0d94ae3092b2de1f15598d46dccdc345bf62374da56a2abd60bea5406ec4e0592846bcb3",
-                "sha1": "64aea4ade1dc04c392895e289c8444625f716190"
-              },
-              "url": "https://cdn.modrinth.com/data/9cSaI7xV/versions/WeEI1VNb/Nether%27s%20Overhaul%20-1.20.1%201.3.0.jar",
-              "filename": "Nether's Overhaul -1.20.1 1.3.0.jar",
-              "primary": true,
-              "size": 364352
-            }
-          ],
-          "dependencies": [],
-          "game_versions": [
-            "1.20.1"
-          ],
-          "loaders": [
-            "forge"
-          ]
-        }
-      },
-      {
-        "name": "Nether's Overhaul",
-        "version": "Nether's Overhaul -1.20.1 1.3.0",
-        "optional": true,
-        "file": "Nether's Overhaul -1.20.1 1.3.0.jar",
-        "type": "mods",
-        "description": "👹A nether improve! with new mobs and equipment",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "curseForgeProjectId": 913476,
-        "curseForgeFileId": 4822008,
-        "curseForgeFile": {
-          "id": 4822008,
-          "gameId": 432,
-          "isAvailable": true,
-          "displayName": "Nether's Overhaul -1.20.1 1.3.0",
-          "fileName": "Nether's Overhaul -1.20.1 1.3.0.jar",
-          "releaseType": 1,
-          "fileStatus": 4,
-          "fileDate": "2023-10-28T20:36:13.197Z",
-          "fileLength": 364352,
-          "dependencies": [],
-          "alternateFileId": 0,
-          "modules": [
-            {
-              "fingerprint": 1600981988,
-              "name": "META-INF"
-            },
-            {
-              "fingerprint": 1429902201,
-              "name": "assets"
-            },
-            {
-              "fingerprint": 3315715750,
-              "name": "data"
-            },
-            {
-              "fingerprint": 2563942470,
-              "name": "net"
-            },
-            {
-              "fingerprint": 3888393594,
-              "name": "pack.mcmeta"
-            }
-          ],
-          "isServerPack": false,
-          "hashes": [
-            {
-              "value": "64aea4ade1dc04c392895e289c8444625f716190",
-              "algo": 1
-            },
-            {
-              "value": "48ee53c22e1fa4a61c0b53a4cf2a2561",
-              "algo": 2
-            }
-          ],
-          "sortableGameVersions": [
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
-              "gameVersionName": "Client"
-            },
-            {
-              "gameVersionPadded": "0000000001.0000000020.0000000001",
-              "gameVersion": "1.20.1",
-              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
-              "gameVersionName": "1.20.1"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
-              "gameVersionName": "Forge"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
-              "gameVersionName": "Server"
-            }
-          ],
-          "gameVersions": [
-            "Client",
-            "1.20.1",
-            "Forge",
-            "Server"
-          ],
-          "fileFingerprint": 2787779822,
-          "modId": 913476
-        },
-        "modrinthProject": {
-          "id": "9cSaI7xV",
-          "slug": "nethers-overhaul",
-          "project_type": "mod",
-          "team": "jhJEOPw1",
-          "title": "Nether's Overhaul",
-          "description": "👹A nether improve! with new mobs and equipment",
-          "body": "<img src=\"https://media.discordapp.net/attachments/883020273744490527/1167894404296626288/netheroverhaullogo.png?ex=65623e6c&is=654fc96c&hm=44165aa98df5af1d3d3b228d9d77f26a2c6328a7ed34fdb7b6b136bb4741ddb4&=\" alt=\"logo title\">\n\n<br /><br />\n<center>\n<FONT size=\"5pt\">\n                    <p>This mod was made with mcreator (excuse me for my English I'm French)</p>\n</FONT>\n</center>\n\n                                         information: I advise to use JEI for recipes \n\n---\nAll mobs :\n</U>\n<br /><br />\n<img src=\"https://media.discordapp.net/attachments/883020273744490527/1167916836273266728/showallmobs.png?ex=654fde50&is=653d6950&hm=735d62176d4c83e18dd119ec7bb219f2d70889608ee3b69e775c2f8b3a5d65c1&=&width=960&height=452\" alt=\"all mobs\">\n<br /><br />\n\n<strong>basalt snail:</strong>\n- passive mob, found in basalt deltas biomes, drop 1 basalt, and 1 ember snail, if you feed it a warped mushroom it will give you a piece of shells\n\n \n\n<strong>Warped and Crimson Shroomling:</strong>\n- two totally passive adorable little creatures are very friendly, you can move them with a bucket\n\n \n\n<strong>Bruger:</strong> - extremely aggressive crowd, woe to those who are hit by an attack from the bruger, it paralyzes your body for 10 seconds, iron armor will not be enough for you (easter egg if we rename it with a name tag \"burger\" the model changes)\n\n \n\n<strong>Veneficus:</strong>\n- a very powerful little magician, has several attacks like, you cut your vision, levitate you and teleport you into lava, veneficus and a formidable enemy\n\n\n<strong>Soul Tracker: </strong> - aggressive mob, he runs very fast, if you hit him your vision will be cut\n\n<br /><br />\n---\nVeneficus hat :\n\n\n<img src=\"https://media.discordapp.net/attachments/883020273744490527/1167916835832872960/showveneficusarmor.png?ex=654fde50&is=653d6950&hm=5bcdeae60bbfc567befa7c412f44ad18b30d01aee4ae317cdf545589c27e25e7&=&width=429&height=676\" alt=\"Veneficus hat\">\n\n\n<br /><br />\n<strong>Veneficus Hat :</strong> - do you have more than 1 xp? , equip this hat to teleport anywhere, it will cost you a little XP, practical for pvp, 30 second cooldown\n<br /><br />\n<br /><br />\n<center>\n---\n<FONT size=\"5pt\">\nwarning : not all mod elements are displayed on the Modrinth page\n</FONT>\n\n</center>",
-          "published": "2023-07-06T16:20:56.333737Z",
-          "updated": "2023-11-08T14:08:56.365333Z",
-          "status": "approved",
-          "license": {
-            "id": "LicenseRef-All-Rights-Reserved",
-            "name": ""
-          },
-          "client_side": "required",
-          "server_side": "required",
-          "categories": [
-            "adventure",
-            "equipment",
-            "mobs"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/9cSaI7xV/6a05a5b4ea4c51a26fd22caaf4ae1b37fd07fd51.gif",
-          "discord_url": "https://discord.gg/YcJnyxDh6Z",
-          "donation_urls": [
-            {
-              "id": "ko-fi",
-              "platform": "Ko-fi",
-              "url": "https://ko-fi.com/ninjatorrentt"
-            }
-          ],
-          "gallery": [
-            {
-              "url": "https://cdn.modrinth.com/data/9cSaI7xV/images/4b7e53386b1532e5dba6c01b6b00026348cdaba0.png",
-              "featured": true,
-              "title": "title",
-              "description": "title",
-              "created": "2023-11-11T20:54:09.952464Z",
-              "ordering": 1.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/9cSaI7xV/images/4b0cb8886b4d7b1ff3d9056a46bef0331d0542a2.png",
-              "featured": false,
-              "title": "allmobs",
-              "description": "allmobs",
-              "created": "2023-11-11T20:54:40.231237Z",
-              "ordering": 2.0
-            }
-          ]
-        },
-        "modrinthVersion": {
-          "id": "WeEI1VNb",
-          "project_id": "9cSaI7xV",
-          "author_id": "4Zw6PUrW",
-          "name": "Nether's Overhaul -1.20.1 1.3.0",
-          "version_number": "1.3.0",
-          "changelog": "Additions :\n\n- Veneficus\n\n- Veneficus Hat\n\n-Cloth of Veneficus\n\n- Structure Veneficus house\n\n \n\nRemoved :\n\n- Nether bee",
-          "date_published": "2023-11-08T14:08:57.368540Z",
-          "version_type": "release",
-          "files": [
-            {
-              "hashes": {
-                "sha1": "64aea4ade1dc04c392895e289c8444625f716190",
-                "sha512": "43eea5efbdb42146bcd7fc750d60ae1ef677d11da6e7d2702d9eac4a0d94ae3092b2de1f15598d46dccdc345bf62374da56a2abd60bea5406ec4e0592846bcb3"
-              },
-              "url": "https://cdn.modrinth.com/data/9cSaI7xV/versions/WeEI1VNb/Nether%27s%20Overhaul%20-1.20.1%201.3.0.jar",
-              "filename": "Nether's Overhaul -1.20.1 1.3.0.jar",
-              "primary": true,
-              "size": 364352
-            }
-          ],
-          "dependencies": [],
-          "game_versions": [
-            "1.20.1"
-          ],
-          "loaders": [
-            "forge"
-          ]
-        }
-      },
-      {
         "name": "CraftTweaker",
         "version": "CraftTweaker-forge-1.20.1-14.0.27.jar",
         "optional": true,
@@ -48393,7 +47973,7 @@
         "file": "backpacked-forge-1.20.1-2.2.5.jar",
         "type": "mods",
         "description": "A vanilla style backpack mod with customisation, pickpocketing, Curios API integration, and more!",
-        "disabled": true,
+        "disabled": false,
         "userAdded": true,
         "wasSelected": true,
         "skipped": false,
@@ -48650,7 +48230,7 @@
         "file": "ToolBelt-1.20-1.20.0.jar",
         "type": "mods",
         "description": "A utility belt that holds your tools",
-        "disabled": true,
+        "disabled": false,
         "userAdded": true,
         "wasSelected": true,
         "skipped": false,
@@ -48819,7 +48399,7 @@
         "file": "abverticaledition-1.0.3b-forge-mc1.20.jar",
         "type": "mods",
         "description": "This mod adds vertical slabs and stairs to your game! ",
-        "disabled": true,
+        "disabled": false,
         "userAdded": true,
         "wasSelected": true,
         "skipped": false,
@@ -49228,102 +48808,13 @@
         }
       },
       {
-        "name": "Bundle Recipe",
-        "version": "1-v1.0.0",
-        "optional": true,
-        "file": "bundle-recipe-v1.0.0.jar",
-        "type": "mods",
-        "description": "Adds the vanilla bundle recipe to the game, allowing you to craft the experimental item.",
-        "disabled": true,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "modrinthProject": {
-          "id": "Hkc2j5Bf",
-          "slug": "bundle-recipe",
-          "project_type": "mod",
-          "team": "NdXTZar4",
-          "title": "Bundle Recipe",
-          "description": "Adds the vanilla bundle recipe to the game, allowing you to craft the experimental item.",
-          "body": "[![Join The Discord](https://cdn.modrinth.com/data/nWCaRO9f/images/92912dea7a95ba9099104c1ea8ff1016955c06cf.webp)](https://discord.gg/7vJUhps4dt) [![Support Me On Ko-Fi](https://cdn.modrinth.com/data/nWCaRO9f/images/ac7d31b51b6a7194dbfc7a31d86a4b3806c1a1f0.png)](https://ko-fi.com/rebel459) \n\nAdds the vanilla bundle recipe to the game, allowing you to craft the experimental item.\n\nNeed a server and want cheap pricing with fast, reliable performance? [Check out Kinetic Hosting here](https://billing.kinetichosting.net/aff.php?aff=55) and use code ENHANCED at checkout for 15% off!\n\n[![Kinetic Hosting Affiliate](https://cdn.modrinth.com/data/nWCaRO9f/images/bd66ed65dd51fcaea056160450ad0c4a1a33769e.png)](https://billing.kinetichosting.net/aff.php?aff=55)",
-          "published": "2023-06-18T09:46:53.793570Z",
-          "updated": "2023-06-18T09:48:24.710530Z",
-          "status": "approved",
-          "license": {
-            "id": "MIT",
-            "name": "MIT License"
-          },
-          "client_side": "optional",
-          "server_side": "required",
-          "categories": [
-            "equipment",
-            "game-mechanics",
-            "storage"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/Hkc2j5Bf/e3f10e985d8005dea26575f21f14d6796a8445c1.png",
-          "discord_url": "https://discord.gg/7vJUhps4dt",
-          "donation_urls": [
-            {
-              "id": "ko-fi",
-              "platform": "Ko-fi",
-              "url": "https://ko-fi.com/rebel459"
-            }
-          ],
-          "gallery": []
-        },
-        "modrinthVersion": {
-          "id": "LXesN88R",
-          "project_id": "Hkc2j5Bf",
-          "author_id": "8jJyj9j9",
-          "name": "Bundle Recipe v1.0.0",
-          "version_number": "1.0.0",
-          "changelog": "",
-          "date_published": "2023-06-18T09:48:25.399171Z",
-          "version_type": "release",
-          "files": [
-            {
-              "hashes": {
-                "sha1": "6a75fd0f294c464bcdc6839235e5185be936d52f",
-                "sha512": "0ce3cdd32802f5d928d874127da4cc87437564df2c94d1e0b66c21afae4e05299942481691a60043fc61a17574014d2b938f623dc38b50efe084ebd2fa773173"
-              },
-              "url": "https://cdn.modrinth.com/data/Hkc2j5Bf/versions/LXesN88R/bundle-recipe-v1.0.0.jar",
-              "filename": "bundle-recipe-v1.0.0.jar",
-              "primary": true,
-              "size": 3365
-            }
-          ],
-          "dependencies": [],
-          "game_versions": [
-            "1.17",
-            "1.17.1",
-            "1.18",
-            "1.18.1",
-            "1.18.2",
-            "1.19",
-            "1.19.1",
-            "1.19.2",
-            "1.19.3",
-            "1.19.4",
-            "1.20",
-            "1.20.1",
-            "1.20.2"
-          ],
-          "loaders": [
-            "fabric",
-            "forge",
-            "neoforge",
-            "quilt"
-          ]
-        }
-      },
-      {
         "name": "Corpse",
         "version": "Unknown",
         "optional": true,
         "file": "corpse-1.20.1-1.0.9.jar",
         "type": "mods",
         "description": "Never lose your items again!",
-        "disabled": true,
+        "disabled": false,
         "userAdded": true,
         "wasSelected": true,
         "skipped": false,
@@ -52664,13 +52155,236 @@
             "forge"
           ]
         }
+      },
+      {
+        "name": "Resource Pack Overrides [Forge & Fabric]",
+        "version": "[FORGE] [1.20.1] ResourcePackOverrides-v8.0.2",
+        "optional": true,
+        "file": "ResourcePackOverrides-v8.0.2-1.20.1-Forge.jar",
+        "type": "mods",
+        "description": "Ensures important resource packs stay always active and helps clean up the pack selection screen.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 832644,
+        "curseForgeFileId": 4830490,
+        "curseForgeProject": {
+          "id": 832644,
+          "name": "Resource Pack Overrides [Forge & Fabric]",
+          "authors": [
+            {
+              "id": 10384423,
+              "name": "Fuzs",
+              "url": "https://www.curseforge.com/members/10384423-fuzs_?username=fuzs_"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Ensures important resource packs stay always active and helps clean up the pack selection screen.",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "resource-pack-overrides",
+          "isFeatured": false,
+          "dateModified": "2023-10-31T22:56:52.89Z",
+          "dateCreated": "2023-02-28T22:03:32.117Z",
+          "dateReleased": "2023-10-31T22:50:43.713Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/resource-pack-overrides",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/Fuzss/resourcepackoverrides/issues",
+            "sourceUrl": "https://github.com/Fuzss/resourcepackoverrides"
+          },
+          "logo": {
+            "id": 783898,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/783/898/256/256/638132186121495014.png",
+            "title": "638132186121495014.png",
+            "url": "https://media.forgecdn.net/avatars/783/898/638132186121495014.png",
+            "modId": 832644
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 4830491
+        },
+        "curseForgeFile": {
+          "id": 4830490,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[FORGE] [1.20.1] ResourcePackOverrides-v8.0.2",
+          "fileName": "ResourcePackOverrides-v8.0.2-1.20.1-Forge.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-10-31T22:50:36.87Z",
+          "fileLength": 83244,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 745177693,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3779927711,
+              "name": "CHANGELOG.md"
+            },
+            {
+              "fingerprint": 1447192261,
+              "name": "LICENSE-ASSETS.md"
+            },
+            {
+              "fingerprint": 2980605036,
+              "name": "LICENSE.md"
+            },
+            {
+              "fingerprint": 136344330,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 4112629445,
+              "name": "fuzs"
+            },
+            {
+              "fingerprint": 3128738407,
+              "name": "mod_banner.png"
+            },
+            {
+              "fingerprint": 3966636261,
+              "name": "mod_logo.png"
+            },
+            {
+              "fingerprint": 845616118,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2641099867,
+              "name": "resourcepackoverrides.common.mixins.json"
+            },
+            {
+              "fingerprint": 569617164,
+              "name": "resourcepackoverrides.forge.mixins.json"
+            },
+            {
+              "fingerprint": 1177316125,
+              "name": "resourcepackoverrides.refmap.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "f0597179512d1038f4a83ea54c2d5b3e835b973b",
+              "algo": 1
+            },
+            {
+              "value": "7d1bd442ca2fc17ea9091a92bad083ba",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 179387260,
+          "modId": 832644
+        },
+        "modrinthProject": {
+          "id": "YsFycamt",
+          "slug": "resource-pack-overrides",
+          "project_type": "mod",
+          "team": "g4J9iAcM",
+          "title": "Resource Pack Overrides",
+          "description": "Ensures important resource packs stay always active and helps clean up the pack selection screen.",
+          "body": "<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/resourcepackoverrides/banner.png\" width=\"854\" height=\"240\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/resourcepackoverrides/strip.png\" width=\"854\" height=\"14\" /></p>\n<p style=\"text-align: center; line-height: 36px;\"><a href=\"https://lunapixel.studio/discord\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=Discord&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=discord&amp;logoColor=white\" width=\"117\" height=\"28\" /></a>&emsp;<a href=\"https://twitter.com/Fusseel\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=Twitter&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=twitter&amp;logoColor=white\" width=\"116\" height=\"28\" /></a>&emsp;<a href=\"https://www.youtube.com/channel/UC2l26SuCmCNSCPefpfbCX7Q\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=YouTube&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=youtube&amp;logoColor=white\" width=\"118\" height=\"28\" /></a>&emsp;<a href=\"https://www.patreon.com/heyitsfuzs\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=Patreon&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=patreon&amp;logoColor=white\" width=\"118\" height=\"28\" /></a>&emsp;<a href=\"https://www.paypal.com/donate/?hosted_button_id=TYG7QUSWMVSNG\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=PayPal&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=paypal&amp;logoColor=white\" width=\"107\" height=\"28\" /></a>&emsp;<a href=\"https://github.com/Fuzss\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=GitHub&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=github&amp;logoColor=white\" width=\"108\" height=\"28\" /></a></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/resourcepackoverrides/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/about.png\" width=\"854\" height=\"32\" /></p>\n<p><span style=\"font-size: 14px;\">Resource Pack Overrides exists to help mod pack makers with managing pre-installed resource packs. It's especially useful for making sure important resource packs always stay enabled no matter what and also allows for cleaning up the resource pack selection screen to give users less of a chance to accidentially mess with important packs.</span></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/resourcepackoverrides/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/features.png\" width=\"854\" height=\"32\" /></p>\n<p><strong><span style=\"font-size: 14px;\">▶️ </span></strong><strong><span style=\"font-size: 14px;\">Define a default list and order of resource packs that persists accross failed resource pack reloads.</span></strong></p>\n<p><strong><span style=\"font-size: 14px;\">▶️ </span></strong><strong><span style=\"font-size: 14px;\">Override certain resource pack display attributes for the resource pack selection list, mainly such as compatibility and visibility.</span></strong></p>\n<p><strong><span style=\"font-size: 14px;\">▶️ </span></strong><strong><span style=\"font-size: 14px;\">Find out more details on the </span></strong><a href=\"https://github.com/Fuzss/resourcepackoverrides\"><strong><span style=\"font-size: 14px;\">GitHub</span></strong></a><strong><span style=\"font-size: 14px;\"> repository!</span></strong></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/resourcepackoverrides/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/media.png\" width=\"854\" height=\"32\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/resourcepackoverrides/media/1.png\" width=\"854\" height=\"480\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/resourcepackoverrides/media/2.png\" width=\"854\" height=\"480\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/resourcepackoverrides/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/installation.png\" width=\"854\" height=\"32\" /></p>\n<p><strong><span style=\"font-size: 14px;\">⏩ </span></strong><strong><span style=\"font-size: 14px;\">INSTALLATION REQUIRED ON CLIENT</span></strong></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/resourcepackoverrides/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><a href=\"https://lunapixel.studio/discord\"><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/studio.png\" width=\"854\" height=\"240\" /></a></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/resourcepackoverrides/strip.png\" width=\"854\" height=\"14\" /></p>\n",
+          "published": "2023-06-28T13:59:56.508196Z",
+          "updated": "2023-10-31T22:50:46.709080Z",
+          "status": "approved",
+          "license": {
+            "id": "MPL-2.0",
+            "name": "Mozilla Public License 2.0"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/YsFycamt/e7e3f23803e72f3e3b480c15f640a8f93a60bcb4.png",
+          "issues_url": "https://github.com/Fuzss/resourcepackoverrides/issues",
+          "source_url": "https://github.com/Fuzss/resourcepackoverrides",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/YsFycamt/images/9d67b1e8477c0b0720858f8700b4e92a6d006001.png",
+              "featured": true,
+              "created": "2023-06-28T14:00:58.033474Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "fKZQZMbH",
+          "project_id": "YsFycamt",
+          "author_id": "rHdGpxOA",
+          "name": "[FORGE] [1.20.1] ResourcePackOverrides-v8.0.2",
+          "version_number": "v8.0.2-1.20.1-Forge",
+          "changelog": "# Changelog\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog].\n\n## [v8.0.2-1.20.1] - 2023-08-05\n### Changed\n- The `resourcepackoverrides.json` file now generates as an empty file when absent\n- `schema_version` is now `2`, also a wrong format will no longer prevent a config from loading, it will be attempted to be made compatible\n- The identifier for groups must now begin with `$$` instead of just a single `$`\n### Fixed\n- Fixed packs that are hidden by default on Forge showing up even when they have not been changed in the config\n\n## [v8.0.1-1.20.1] - 2023-08-05\n### Fixed\n- Fixed order buttons showing when all but one packs are hidden\n\n## [v8.0.0-1.20.1] - 2023-06-27\n- Ported to Minecraft 1.20.1\n\n[Keep a Changelog]: https://keepachangelog.com/en/1.0.0/\n",
+          "date_published": "2023-10-31T22:50:40.880038Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "f0597179512d1038f4a83ea54c2d5b3e835b973b",
+                "sha512": "b0afbb399edc30170c9bf29071d8edbb88dea273821c0b903bbcb0194e2ef496947f6265d518a5ef2097fda7ce133c1fccae1fd01333f7063cc61b595a672df1"
+              },
+              "url": "https://cdn.modrinth.com/data/YsFycamt/versions/fKZQZMbH/ResourcePackOverrides-v8.0.2-1.20.1-Forge.jar",
+              "filename": "ResourcePackOverrides-v8.0.2-1.20.1-Forge.jar",
+              "primary": true,
+              "size": 83244
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1701555925865,
-    "numPlays": 62
+    "lastPlayed": 1701602694640,
+    "numPlays": 72
   },
   "id": "1.20.1",
   "complianceLevel": 1,
