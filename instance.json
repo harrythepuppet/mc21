@@ -49499,13 +49499,872 @@
             "forge"
           ]
         }
+      },
+      {
+        "name": "no f3",
+        "version": "v1",
+        "optional": true,
+        "file": "no-f3-1.jar",
+        "type": "mods",
+        "description": "removes most f3 features",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "modrinthProject": {
+          "id": "MPFUV2Ds",
+          "slug": "no-f3",
+          "project_type": "mod",
+          "team": "9j3c7aI6",
+          "title": "no f3",
+          "description": "removes most f3 features",
+          "body": "I think, and maybe others too, that some features of f3, like the coordinates, are too op. And moving the coordinates to the compass (for example, with \"gui compass\") would give the compass more utilization.",
+          "published": "2023-07-10T20:38:47.923438Z",
+          "updated": "2023-07-10T21:30:16.936009Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "unsupported",
+          "server_side": "required",
+          "categories": [
+            "game-mechanics"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/MPFUV2Ds/218087b0927f5708585fe6d86d26c1073f903ec8.png",
+          "issues_url": "https://github.com/SinyoMinyo/no-f3/issues",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/MPFUV2Ds/images/8be669597572e3397648e2c96c85423bf9a72243.png",
+              "featured": false,
+              "title": "before",
+              "description": "without no f3 installed",
+              "created": "2023-07-10T21:26:17.644346Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/MPFUV2Ds/images/4d772c0554211742af1eed8d82ec86d72ab571cd.png",
+              "featured": true,
+              "title": "after",
+              "description": "with no f3 installed",
+              "created": "2023-07-10T21:26:36.917032Z",
+              "ordering": 2.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "8mw8OXUF",
+          "project_id": "MPFUV2Ds",
+          "author_id": "mHvRJm6V",
+          "name": "v1",
+          "version_number": "1+mod",
+          "changelog": "gamerule reducedDebugInfo true",
+          "date_published": "2023-07-10T21:30:17.765939Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "892ecb42aae623707d21d6b9e8f2061911d500c66d344f4dfd0628c40495b0fab8561b931144b6ac206870006f807dedd45388e8ad77cf218c56337a4c269337",
+                "sha1": "2adb4b1110e3c6b6d03fe0807ef1533912676f73"
+              },
+              "url": "https://cdn.modrinth.com/data/MPFUV2Ds/versions/8mw8OXUF/no-f3-1.jar",
+              "filename": "no-f3-1.jar",
+              "primary": true,
+              "size": 158394
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "NRLPy2mk",
+              "dependency_type": "optional"
+            }
+          ],
+          "game_versions": [
+            "1.13",
+            "1.13.1",
+            "1.13.2",
+            "1.14",
+            "1.14.1",
+            "1.14.2",
+            "1.14.3",
+            "1.14.4",
+            "1.15",
+            "1.15.1",
+            "1.15.2",
+            "1.16",
+            "1.16.1",
+            "1.16.2",
+            "1.16.3",
+            "1.16.4",
+            "1.16.5",
+            "1.17",
+            "1.17.1",
+            "1.18",
+            "1.18.1",
+            "1.18.2",
+            "1.19",
+            "1.19.1",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "quilt"
+          ]
+        }
+      },
+      {
+        "name": "Collective",
+        "version": "[Fabric/Forge/Neo] 1.20.1-7.9 | Collective",
+        "optional": true,
+        "file": "collective-1.20.1-7.9.jar",
+        "type": "mods",
+        "description": "🎓 Collective is a shared library with common code for all of Serilum's mods.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 342584,
+        "curseForgeFileId": 4908490,
+        "curseForgeProject": {
+          "id": 342584,
+          "name": "Collective",
+          "authors": [
+            {
+              "id": 7049004,
+              "name": "Serilum",
+              "url": "https://www.curseforge.com/members/7049004-serilum?username=serilum"
+            }
+          ],
+          "gameId": 432,
+          "summary": "🎓 Collective is a shared library with common code for all of Serilum's mods.",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "collective",
+          "isFeatured": false,
+          "dateModified": "2023-11-28T12:37:51.277Z",
+          "dateCreated": "2019-09-21T20:27:44.81Z",
+          "dateReleased": "2023-11-28T12:00:26.59Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/collective",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/ricksouth/serilum-mc-mods/labels/Library: Collective",
+            "sourceUrl": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/Collective"
+          },
+          "logo": {
+            "id": 601893,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/601/893/256/256/637981624482095236.png",
+            "title": "637981624482095236.png",
+            "url": "https://media.forgecdn.net/avatars/601/893/637981624482095236.png",
+            "modId": 342584
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 4908492
+        },
+        "curseForgeFile": {
+          "id": 4908490,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[Fabric/Forge/Neo] 1.20.1-7.9 | Collective",
+          "fileName": "collective-1.20.1-7.9.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-11-28T12:00:01.373Z",
+          "fileLength": 530763,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3225443194,
+              "name": "collective.accesswidener"
+            },
+            {
+              "fingerprint": 3258967334,
+              "name": "collective_fabric.crop.mixins.json"
+            },
+            {
+              "fingerprint": 2319109920,
+              "name": "collective_fabric.mixins.json"
+            },
+            {
+              "fingerprint": 3901516870,
+              "name": "collective_fabric.refmap.json"
+            },
+            {
+              "fingerprint": 2639370436,
+              "name": "collective_forge.mixins.json"
+            },
+            {
+              "fingerprint": 1024965981,
+              "name": "collective_forge.refmap.json"
+            },
+            {
+              "fingerprint": 2642838306,
+              "name": "fabric.mod.json"
+            },
+            {
+              "fingerprint": 585234253,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 372779867,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2675584326,
+              "name": "com"
+            },
+            {
+              "fingerprint": 1100729918,
+              "name": "data"
+            },
+            {
+              "fingerprint": 1716515754,
+              "name": "META-INF"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "648226ba189f8c7b5c1890453def955924fe0f9b",
+              "algo": 1
+            },
+            {
+              "value": "7146e99bd79444f5b2a4c01010037350",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+              "gameVersionName": "Fabric"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-05-26T00:00:00Z",
+              "gameVersionName": "Quilt"
+            }
+          ],
+          "gameVersions": [
+            "Fabric",
+            "NeoForge",
+            "1.20.1",
+            "Forge",
+            "Quilt"
+          ],
+          "fileFingerprint": 2258849511,
+          "modId": 342584
+        },
+        "modrinthProject": {
+          "id": "e0M1UDsY",
+          "slug": "collective",
+          "project_type": "mod",
+          "team": "UTtoE2WS",
+          "title": "Collective",
+          "description": "🎓 Collective is a shared library with common code for all of Serilum's mods.",
+          "body": "<p><a href=\"https://serilum.com/\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://github.com/ricksouth/serilum-mc-mods/raw/master/description/Modrinth/header.png\" alt=\"\" width=\"896\" height=\"428\" /></a><br /><br /><strong><span style=\"font-size: 24px;\">The Fabric version requires the <a style=\"font-size: 24px;\" href=\"https://modrinth.com/mod/fabric-api\" target=\"_blank\" rel=\"noopener noreferrer\">Fabric API</a>.<br /></span></strong></p>\n<p><strong><span style=\"font-size: 24px;\">Collective is a shared library mod with common code for all of Serilum's mods.</span></strong><span style=\"font-size: 16px;\"><br /><span style=\"font-size: 16px; color: #000000;\">It contains data and functions centralized in one place. Collective helps a great deal in maintainting both the Forge and Fabric versions.<br /><br /></span></span><span style=\"font-size: 16px;\"><span style=\"font-size: 16px; color: #000000;\">Having access to the library's code environment, creates possibilities for current and future project features. The updating process is also made easier when there's an improvement for a function that is relevant to many others. For example this means having to update one project, instead of six. This saves time and makes me a little happier.</span><br /></p>\n<ul>\n<li><span style=\"font-size: 18px; color: #000000;\">Manages all config files of dependent mods.</span></li>\n<li><span style=\"font-size: 18px; color: #000000;\">Variables for increased compatibility with other projects.</span></li>\n<li><span style=\"font-size: 18px; color: #000000;\">Functions that convert data for mods.</span></li>\n<li><span style=\"font-size: 18px; color: #000000;\">An event to replace and resupply entities.</span></li>\n<li><span style=\"font-size: 18px; color: #000000;\">Centralized backwards compatibility for major version changes.</span></li>\n</ul>\n<br>\n<p><strong><span style=\"font-size: 20px;\">Configurable:</span> <span style=\"color: #008000; font-size: 14px;\"><a style=\"color: #008000;\" title=\"how\" href=\"https://serilum.com/how-to-configure-mods/\" target=\"_blank\" rel=\"noopener noreferrer\">(&nbsp;how do I configure?&nbsp;)</a></span></strong><strong><br />transferItemsBetweenReplacedEntities</strong>&nbsp;(default = true): When enabled, transfer the held items and armour from replaced entities by any of the Entity Spawn mods which depend on Collective.<br /><strong>loopsAmountUsedToGetAllEntityDrops</strong>&nbsp;(default = 100, min 1, max 200): The amount of times Collective loops through possible mob drops to get them all procedurally. Drops are only generated when a dependent mod uses them. Lowering this can increase world load time but decrease accuracy.<br /><strong>findABlockcheckAroundEntitiesDelayMs</strong>&nbsp;(default = 30000, min 0, max 3600000): The delay of the is-there-a-block-around-check around entities in ms. Used in mods which depends on a specific blockstate in the world. Increasing this number can increase TPS if needed.<br /><br /><strong>enableAntiRepostingCheck</strong>&nbsp;(default = true): Please check out <a href=\"https://stopmodreposts.org/\" target=\"_blank\" rel=\"noopener noreferrer\">https://stopmodreposts.org/</a> for more information on why this feature exists.</p>\n<p><br />------------------<br /><br /><span style=\"font-size: 24px;\"><strong>You may freely use this mod in any modpack, as long as the download remains hosted within the Modrinth ecosystem.</strong></span><br /><br /><span style=\"font-size: 18px;\"><a style=\"font-size: 18px; color: #008000;\" href=\"https://serilum.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Serilum.com</a> contains an overview and more information on all mods available.</span><br /><br /><span style=\"font-size: 14px;\">Comments are disabled as I'm unable to keep track of all the separate pages on each mod.</span><span style=\"font-size: 14px;\"><br />For issues, ideas, suggestions or anything else there is the&nbsp;<a style=\"font-size: 14px; color: #008000;\" href=\"https://github.com/ricksouth/serilum-mc-mods/\" target=\"_blank\" rel=\"noopener noreferrer\">Github repo</a>. Thanks!</span><br></p>",
+          "published": "2022-08-30T10:44:01.264939Z",
+          "updated": "2023-11-28T12:00:37.192959Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "library"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/e0M1UDsY/icon.png",
+          "issues_url": "https://github.com/ricksouth/serilum-mc-mods/labels/Library:%20Collective",
+          "source_url": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/Collective",
+          "donation_urls": [
+            {
+              "id": "other",
+              "platform": "Other",
+              "url": "https://ricksouth.com/donate/"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "VwFgkeo3",
+          "project_id": "e0M1UDsY",
+          "author_id": "NIbuUGD2",
+          "name": "[Fabric/Forge/Neo] 1.20.1-7.9",
+          "version_number": "1.20.1-7.9-fabric+forge+neo",
+          "changelog": "<p>Added support for the Spawn Radius gamerule in the function where Collective determines if a player spawned in a world for the first time.</p><p>The complete changelog with previous versions can be found at: <br>&nbsp; <a href=\"https://serilum.com/mods?changelog=collective\" target=\"_blank\">https://serilum.com/mods?changelog=collective</a></p>",
+          "date_published": "2023-11-28T12:00:15.900330Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "851730148fdbda4311eec3d2c4160fbe0b12d00ded7db6b2b6ab2f017090ccbb4cd655b09d86f2cd0e9b282ca2814367dfa7a061c0c4b7805ba3348229265e62",
+                "sha1": "648226ba189f8c7b5c1890453def955924fe0f9b"
+              },
+              "url": "https://cdn.modrinth.com/data/e0M1UDsY/versions/VwFgkeo3/collective-1.20.1-7.9.jar",
+              "filename": "collective-1.20.1-7.9.jar",
+              "primary": true,
+              "size": 530763
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ]
+        }
+      },
+      {
+        "name": "GUI Compass",
+        "version": "[Fabric/Forge/Neo] 1.20.1-4.3 | GUI Compass",
+        "optional": true,
+        "file": "guicompass-1.20.1-4.3.jar",
+        "type": "mods",
+        "description": "🧭 [Client] Shows direction and coordinates in the GUI/HUD with a compass in the inventory.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 347595,
+        "curseForgeFileId": 4852709,
+        "curseForgeProject": {
+          "id": 347595,
+          "name": "GUI Compass",
+          "authors": [
+            {
+              "id": 7049004,
+              "name": "Serilum",
+              "url": "https://www.curseforge.com/members/7049004-serilum?username=serilum"
+            }
+          ],
+          "gameId": 432,
+          "summary": "🧭 [Client] Shows direction and coordinates in the GUI/HUD with a compass in the inventory.",
+          "categories": [
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "gui-compass",
+          "isFeatured": false,
+          "dateModified": "2023-11-10T21:09:58.167Z",
+          "dateCreated": "2019-10-12T11:14:32.137Z",
+          "dateReleased": "2023-11-08T21:57:15.95Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/gui-compass",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod: GUI Compass",
+            "sourceUrl": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/GUI Compass"
+          },
+          "logo": {
+            "id": 232241,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/232/241/256/256/637065486289869915.png",
+            "title": "637065486289869915.png",
+            "url": "https://media.forgecdn.net/avatars/232/241/637065486289869915.png",
+            "modId": 347595
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 4852710
+        },
+        "curseForgeFile": {
+          "id": 4852709,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[Fabric/Forge/Neo] 1.20.1-4.3 | GUI Compass",
+          "fileName": "guicompass-1.20.1-4.3.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-11-08T21:56:54.717Z",
+          "fileLength": 40140,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 342584,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 547315624,
+              "name": "fabric.mod.json"
+            },
+            {
+              "fingerprint": 1506765108,
+              "name": "guicompass_forge.mixins.json"
+            },
+            {
+              "fingerprint": 118629613,
+              "name": "guicompass_forge.refmap.json"
+            },
+            {
+              "fingerprint": 2683698086,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 3478535121,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 3080906638,
+              "name": "com"
+            },
+            {
+              "fingerprint": 2355421571,
+              "name": "META-INF"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "574e32ab99c3d9b87c7d3aa674d2e997af2a51b0",
+              "algo": 1
+            },
+            {
+              "value": "8ef19e8e42b5ca6e14d2b69c9a24e722",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+              "gameVersionName": "Fabric"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-05-26T00:00:00Z",
+              "gameVersionName": "Quilt"
+            }
+          ],
+          "gameVersions": [
+            "Fabric",
+            "NeoForge",
+            "1.20.1",
+            "Forge",
+            "Quilt"
+          ],
+          "fileFingerprint": 4058188232,
+          "modId": 347595
+        },
+        "modrinthProject": {
+          "id": "ZORMkttv",
+          "slug": "gui-compass",
+          "project_type": "mod",
+          "team": "y7GdvX5W",
+          "title": "GUI Compass",
+          "description": "🧭 Shows direction and coordinates in the GUI/HUD with a compass in the inventory.",
+          "body": "<p><a href=\"https://serilum.com/\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://github.com/ricksouth/serilum-mc-mods/raw/master/description/Modrinth/header.png\" alt=\"\" width=\"896\" height=\"428\" /></a><br /><br /><strong><span style=\"font-size: 24px;\">Requires the library mod&nbsp;<a style=\"font-size: 24px;\" href=\"https://modrinth.com/mod/collective\" target=\"_blank\" rel=\"noopener noreferrer\">Collective</a>.<br /></span></strong></p>\n<p> <strong>&nbsp; &nbsp; &nbsp;This mod is part of <span style=\"color: #008000;\"><a style=\"color: #008000;\" href=\"https://modrinth.com/modpack/the-vanilla-experience\" rel=\"nofollow\">The Vanilla Experience</a></span>.</strong><br /><span style=\"font-size: 18px;\">GUI Compass is a minimalistic configurable client-side mod which shows the direction and coordinates in the GUI with a compass in the inventory. By default the compass is positioned in the top left, but you can change that and the height in the config.<br /><br />The format of what is visible on the screen can be changed via the 'guiCompassFormat' config value.</span><br /><br /><br /><strong>Default format:</strong>&nbsp;<em>Direction: X, Y, Z<br /><br /></em>You may also be interested in <span style=\"color: #ff9900;\"><strong><a style=\"color: #ff9900;\" href=\"https://modrinth.com/mod/gui-clock\" target=\"_blank\" rel=\"noopener noreferrer\">GUI Clock</a></strong></span>.<br /><br /><br /><strong><span style=\"font-size: 20px;\">Configurable:</span> <span style=\"color: #008000; font-size: 14px;\"><a style=\"color: #008000;\" title=\"how\" href=\"https://serilum.com/how-to-configure-mods/\" target=\"_blank\" rel=\"noopener noreferrer\">(&nbsp;how do I configure?&nbsp;)</a></span><br /></strong><strong>guiCompassFormat</strong>&nbsp;(default = \"FXYZ\"): What of the GUI compass should be displayed. Default: [FXYZ]. F: facing (direction), X: x coord, Y: y coord (depth), Z: z coord.<strong><br />mustHaveCompassInInventory</strong>&nbsp;(default = true):&nbsp;When enabled, will only show the GUI compass when a compass is present in the inventory.<br /><br /><strong>compassPositionIsLeft</strong>&nbsp;(default = true):&nbsp;Places the GUI compass on the left.<br /><strong>compassPositionIsCenter</strong>&nbsp;(default = false):&nbsp;Places the GUI compass in the middle.<br /><strong>compassPositionIsRight</strong>&nbsp;(default = false):&nbsp;Places the GUI compass on the right.<strong><br /><br />compassHeightOffset</strong>&nbsp;(default = 5, min 0, max 3000):&nbsp;The vertical offset (y coord) for the Compass. This determines how far down the coordinates and direction should be on the screen. Can be changed to prevent GUIs from overlapping.<br /><br /><strong>RGB_R</strong>&nbsp;(default = 255, min 0, max 255):&nbsp;The red RGB value for the compass.<br /><strong>RGB_G</strong>&nbsp;(default = 255, min 0, max 255):&nbsp;The green RGB value for the compass.<br /><strong>RGB_B</strong>&nbsp;(default = 255, min 0, max 255):&nbsp;The blue RGB value for the compass.<br /><br /><br /><strong>Example of the compass while rotating the player:<br /><img src=\"https://github.com/ricksouth/serilum-mc-mods/raw/master/cdn/gui-compass/a.gif\" width=\"292\" height=\"64\" /></strong></p>\n<p><br />------------------<br /><br /><span style=\"font-size: 24px;\"><strong>You may freely use this mod in any modpack, as long as the download remains hosted within the Modrinth ecosystem.</strong></span><br /><br /><span style=\"font-size: 18px;\"><a style=\"font-size: 18px; color: #008000;\" href=\"https://serilum.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Serilum.com</a> contains an overview and more information on all mods available.</span><br /><br /><span style=\"font-size: 14px;\">Comments are disabled as I'm unable to keep track of all the separate pages on each mod.</span><span style=\"font-size: 14px;\"><br />For issues, ideas, suggestions or anything else there is the&nbsp;<a style=\"font-size: 14px; color: #008000;\" href=\"https://github.com/ricksouth/serilum-mc-mods/\" target=\"_blank\" rel=\"noopener noreferrer\">Github repo</a>. Thanks!</span></p>",
+          "published": "2022-09-01T13:33:41.561466Z",
+          "updated": "2023-11-08T21:57:25.595909Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "required",
+          "server_side": "optional",
+          "categories": [
+            "adventure",
+            "management",
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/ZORMkttv/icon.png",
+          "issues_url": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod: GUI Compass",
+          "source_url": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/GUI Compass",
+          "donation_urls": [
+            {
+              "id": "other",
+              "platform": "Other",
+              "url": "https://ricksouth.com/donate/"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "FOYdFytU",
+          "project_id": "ZORMkttv",
+          "author_id": "NIbuUGD2",
+          "name": "[Fabric/Forge/Neo] 1.20.1-4.3",
+          "version_number": "1.20.1-4.3-forge+fabric",
+          "changelog": "<p>(1.20.*) Added official support for NeoForge. Just like Fabric and Forge, in the same jar!<br />Updated structure and content of mod info files.</p><p>The complete changelog with previous versions can be found at: <br>&nbsp; <a href=\"https://serilum.com/mods?changelog=gui-compass\" target=\"_blank\">https://serilum.com/mods?changelog=gui-compass</a></p>",
+          "date_published": "2023-11-08T21:57:05.781028Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "28b0d0dfee15e1e2b5f0e86952937d58cfe7601bbd6b5ad47387adf9d85a7a755f3b2f3a305d0a440f07c4cb732f6f57af61e4d50097bb3b89bb6d85c00668ca",
+                "sha1": "574e32ab99c3d9b87c7d3aa674d2e997af2a51b0"
+              },
+              "url": "https://cdn.modrinth.com/data/ZORMkttv/versions/FOYdFytU/guicompass-1.20.1-4.3.jar",
+              "filename": "guicompass-1.20.1-4.3.jar",
+              "primary": true,
+              "size": 40140
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "e0M1UDsY",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ]
+        }
+      },
+      {
+        "name": "GUI Clock",
+        "version": "[Fabric/Forge/Neo] 1.20.1-4.3 | GUI Clock",
+        "optional": true,
+        "file": "guiclock-1.20.1-4.3.jar",
+        "type": "mods",
+        "description": "⏰ [Client] Shows the time/days played in the GUI/HUD with a clock in the inventory.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 347529,
+        "curseForgeFileId": 4852728,
+        "curseForgeProject": {
+          "id": 347529,
+          "name": "GUI Clock",
+          "authors": [
+            {
+              "id": 7049004,
+              "name": "Serilum",
+              "url": "https://www.curseforge.com/members/7049004-serilum?username=serilum"
+            }
+          ],
+          "gameId": 432,
+          "summary": "⏰ [Client] Shows the time/days played in the GUI/HUD with a clock in the inventory.",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "gui-clock",
+          "isFeatured": false,
+          "dateModified": "2023-11-10T21:10:30.717Z",
+          "dateCreated": "2019-10-11T22:43:49.407Z",
+          "dateReleased": "2023-11-08T22:04:14.987Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/gui-clock",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod: GUI Clock",
+            "sourceUrl": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/GUI Clock"
+          },
+          "logo": {
+            "id": 232242,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/232/242/256/256/637065486813137947.png",
+            "title": "637065486813137947.png",
+            "url": "https://media.forgecdn.net/avatars/232/242/637065486813137947.png",
+            "modId": 347529
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 4852729
+        },
+        "curseForgeFile": {
+          "id": 4852728,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[Fabric/Forge/Neo] 1.20.1-4.3 | GUI Clock",
+          "fileName": "guiclock-1.20.1-4.3.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-11-08T22:03:54.09Z",
+          "fileLength": 56609,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 342584,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2645059449,
+              "name": "fabric.mod.json"
+            },
+            {
+              "fingerprint": 59716182,
+              "name": "guiclock_forge.mixins.json"
+            },
+            {
+              "fingerprint": 118629613,
+              "name": "guiclock_forge.refmap.json"
+            },
+            {
+              "fingerprint": 1882957632,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 1719742642,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2364302228,
+              "name": "com"
+            },
+            {
+              "fingerprint": 3989816505,
+              "name": "META-INF"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "af6fe76639e8edd798c9ca63dccd571577e0db97",
+              "algo": 1
+            },
+            {
+              "value": "7eb944c54eac73eb9bb61f799ab9ded1",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+              "gameVersionName": "Fabric"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-05-26T00:00:00Z",
+              "gameVersionName": "Quilt"
+            }
+          ],
+          "gameVersions": [
+            "Fabric",
+            "NeoForge",
+            "1.20.1",
+            "Forge",
+            "Quilt"
+          ],
+          "fileFingerprint": 1153898730,
+          "modId": 347529
+        },
+        "modrinthProject": {
+          "id": "g1yXisD2",
+          "slug": "gui-clock",
+          "project_type": "mod",
+          "team": "2YGOI5kY",
+          "title": "GUI Clock",
+          "description": "⏰ Shows the time/days played in the GUI/HUD with a clock in the inventory.",
+          "body": "<p><a href=\"https://serilum.com/\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://github.com/ricksouth/serilum-mc-mods/raw/master/description/Modrinth/header.png\" alt=\"\" width=\"896\" height=\"428\" /></a><br /><br /><strong><span style=\"font-size: 24px;\">Requires the library mod&nbsp;<a style=\"font-size: 24px;\" href=\"https://modrinth.com/mod/collective\" target=\"_blank\" rel=\"noopener noreferrer\">Collective</a>.<br /></span></strong></p>\n<p> <strong>&nbsp; &nbsp; &nbsp;This mod is part of <span style=\"color: #008000;\"><a style=\"color: #008000;\" href=\"https://modrinth.com/modpack/the-vanilla-experience\" rel=\"nofollow\">The Vanilla Experience</a></span>.</strong><br /><span style=\"font-size: 18px;\">GUI Clock is a minimalistic client-side mod which shows the time in the GUI on the screen when a clock is in the inventory. It can show in-game time or real time, and can be in the 24 hour format or with AM/PM. It can also show the world's age in days below the time. Instead of showing the time in numbers it's also possible to display the clock icon on the screen instead, can be enabled in the config.<br /><br />By default the clock will automatically be lowered when a potion effect is active.</span><br /><br />You may also be interested in <span style=\"color: #ff9900;\"><strong><a style=\"color: #ff9900;\" href=\"https://modrinth.com/mod/gui-compass\" target=\"_blank\" rel=\"noopener noreferrer\">GUI Compass</a></strong></span>.<br /><br /><br /><strong><span style=\"font-size: 20px;\">Configurable:</span> <span style=\"color: #008000; font-size: 14px;\"><a style=\"color: #008000;\" title=\"how\" href=\"https://serilum.com/how-to-configure-mods/\" target=\"_blank\" rel=\"noopener noreferrer\">(&nbsp;how do I configure?&nbsp;)</a></span><br /></strong><strong>mustHaveClockInInventoryForGameTime</strong>&nbsp;(default = true):&nbsp;When enabled, will only show the game time when a clock is present in the inventory.<br /><strong>mustHaveClockInInventoryForRealTime</strong>&nbsp;(default = true):&nbsp;When enabled, will only show the real time when a clock is present in the inventory.<br /><strong>lowerClockWhenPlayerHasEffects</strong>&nbsp;(default = true): Whether the clock in the GUI should be lowered when the player has potion effects to prevent overlap.<br /><strong>_24hourformat</strong>&nbsp;(default = true):&nbsp;Sets the format of the clock to the 24-hour format.<br /><br /><strong>showOnlyMinecraftClockIcon</strong>&nbsp;(default = false): When enabled, shows the clock item icon instead of a clock with numbers. When using Quark, the \"Clock Nerf\" feature must be disabled for this to work.<br /><br /><strong>showBothTimes</strong>&nbsp;(default = false): Show both in-game time and real local time.<br /><strong>showRealTime</strong>&nbsp;(default = false):&nbsp;Show actual local time instead of in-game time.<br /><strong>showRealTimeSeconds</strong>&nbsp;(default = false):&nbsp;Show the seconds in the clock.<br /><strong>showDaysPlayedWorld</strong>&nbsp;(default = true): Show the days played in the world.<br /><br /><strong>clockPositionIsLeft</strong>&nbsp;(default = false):&nbsp;Places the GUI clock on the left.<br /><strong>clockPositionIsCenter</strong>&nbsp;(default = false):&nbsp;Places the GUI clock in the middle.<br /><strong>clockPositionIsRight</strong>&nbsp;(default = true):&nbsp;Places the GUI clock on the right.<strong><br /><br />clockHeightOffset</strong>&nbsp;(default = 5, min 0, max 3000):&nbsp;The vertical offset (y coord) for the Clock. This determines how far down the time should be on the screen. Can be changed to prevent GUIs from overlapping.<br /><strong>clockWidthOffset</strong>&nbsp;(default = 0, min -3000, max 3000):&nbsp;The horizontal offset (x coord) for the Clock.<br /><br /><strong>RGB_R</strong>&nbsp;(default = 255, min 0, max 255):&nbsp;The red RGB value for the clock.<br /><strong>RGB_G</strong>&nbsp;(default = 255, min 0, max 255):&nbsp;The green RGB value for the clock.<br /><strong>RGB_B</strong>&nbsp;(default = 255, min 0, max 255):&nbsp;The blue RGB value for the clock.<br /><br /><br /><strong>The 24-hour clock.</strong><br /><img src=\"https://github.com/ricksouth/serilum-mc-mods/raw/master/cdn/gui-clock/a.gif\" width=\"356\" height=\"52\" /><br /><br /><strong>The 12-hour clock.</strong><br /><img src=\"https://github.com/ricksouth/serilum-mc-mods/raw/master/cdn/gui-clock/b.gif\" width=\"380\" height=\"52\" /><br /><br /><strong>The 24 hour clock with the PC's local time next to it.</strong><br /><img src=\"https://github.com/ricksouth/serilum-mc-mods/raw/master/cdn/gui-clock/c.gif\" width=\"380\" height=\"56\" /><br /><br /><strong>The day counter:</strong><br /><img src=\"https://github.com/ricksouth/serilum-mc-mods/raw/master/cdn/gui-clock/d.jpg\" width=\"319\" height=\"160\" /><br /><br /><strong>And with the config option '<em>showOnlyMinecraftClockIcon</em>' enabled:<br /><img src=\"https://github.com/ricksouth/serilum-mc-mods/raw/master/cdn/gui-clock/e.jpg\" width=\"736\" height=\"166\" /><br /><br />With the config option 'lowerClockWhenPlayerHasEffects' enabled, the clock will automatically be lowered when a potion effect is active:<br /><img src=\"https://github.com/ricksouth/serilum-mc-mods/raw/master/cdn/gui-clock/f.gif\" width=\"614\" height=\"476\" /></strong></p>\n<p><br />------------------<br /><br /><span style=\"font-size: 24px;\"><strong>You may freely use this mod in any modpack, as long as the download remains hosted within the Modrinth ecosystem.</strong></span><br /><br /><span style=\"font-size: 18px;\"><a style=\"font-size: 18px; color: #008000;\" href=\"https://serilum.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Serilum.com</a> contains an overview and more information on all mods available.</span><br /><br /><span style=\"font-size: 14px;\">Comments are disabled as I'm unable to keep track of all the separate pages on each mod.</span><span style=\"font-size: 14px;\"><br />For issues, ideas, suggestions or anything else there is the&nbsp;<a style=\"font-size: 14px; color: #008000;\" href=\"https://github.com/ricksouth/serilum-mc-mods/\" target=\"_blank\" rel=\"noopener noreferrer\">Github repo</a>. Thanks!</span></p>",
+          "published": "2022-09-01T13:35:51.900902Z",
+          "updated": "2023-11-08T22:04:24.800137Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "required",
+          "server_side": "optional",
+          "categories": [],
+          "icon_url": "https://cdn.modrinth.com/data/g1yXisD2/icon.png",
+          "issues_url": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod: GUI Clock",
+          "source_url": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/GUI Clock",
+          "donation_urls": [
+            {
+              "id": "other",
+              "platform": "Other",
+              "url": "https://ricksouth.com/donate/"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "I2sbmWts",
+          "project_id": "g1yXisD2",
+          "author_id": "NIbuUGD2",
+          "name": "[Fabric/Forge/Neo] 1.20.1-4.3",
+          "version_number": "1.20.1-4.3-forge+fabric",
+          "changelog": "<p>(1.20.*) Added official support for NeoForge. Just like Fabric and Forge, in the same jar!<br />Updated structure and content of mod info files.</p><p>The complete changelog with previous versions can be found at: <br>&nbsp; <a href=\"https://serilum.com/mods?changelog=gui-clock\" target=\"_blank\">https://serilum.com/mods?changelog=gui-clock</a></p>",
+          "date_published": "2023-11-08T22:04:05.430132Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "547f0f0a2b3bdebe4ebca1c3795179e16861cfe284f288ed07c0cadd9131d1c51172b89e7db3ce18b27e5937f3e2a00ff62ae06f2547817daea287323fd2e48d",
+                "sha1": "af6fe76639e8edd798c9ca63dccd571577e0db97"
+              },
+              "url": "https://cdn.modrinth.com/data/g1yXisD2/versions/I2sbmWts/guiclock-1.20.1-4.3.jar",
+              "filename": "guiclock-1.20.1-4.3.jar",
+              "primary": true,
+              "size": 56609
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "e0M1UDsY",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1701647575544,
-    "numPlays": 96
+    "lastPlayed": 1701712488038,
+    "numPlays": 99
   },
   "id": "1.20.1",
   "complianceLevel": 1,
