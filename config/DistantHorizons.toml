@@ -1,3 +1,4 @@
+_version = 2
 
 [client]
 	# Should Distant Horizon's config button appear in the options screen next to fov slider?
@@ -60,6 +61,16 @@
 			# 
 			# 
 			minTimeBetweenChunkUpdatesInSeconds = 8
+			# If false LODs will be lit by Minecraft's lighting engine when possible 
+			# and fall back to the DH lighting engine only when necessary. 
+			# 
+			# If true LODs will only be lit using Distant Horizons' lighting engine. 
+			# 
+			# Generally it is best to leave this disabled and should only be enabled 
+			# if there are lighting issues or for debugging. 
+			# 
+			# 
+			onlyUseDhLightingEngine = false
 
 		[client.advanced.autoUpdater]
 			#  If DH should use the nightly (provided by Gitlab), or stable (provided by Modrinth) build
