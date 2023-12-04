@@ -48460,13 +48460,1052 @@
             "neoforge"
           ]
         }
+      },
+      {
+        "name": "Dynamic Crosshair",
+        "version": "[Forge 1.20] Dynamic Crosshair 7.4.1",
+        "optional": true,
+        "file": "dynamiccrosshair-7.4.1+1.20-forge.jar",
+        "type": "mods",
+        "description": " A Minecraft mod that hides or changes the crosshair dependent on context",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 623800,
+        "curseForgeFileId": 4818099,
+        "curseForgeProject": {
+          "id": 623800,
+          "name": "Dynamic Crosshair",
+          "authors": [
+            {
+              "id": 103336757,
+              "name": "Crendgrim",
+              "url": "https://www.curseforge.com/members/103336757-crendgrim?username=crendgrim"
+            }
+          ],
+          "gameId": 432,
+          "summary": " A Minecraft mod that hides or changes the crosshair dependent on context",
+          "categories": [
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "dynamic-crosshair",
+          "isFeatured": false,
+          "dateModified": "2023-10-27T16:53:00.45Z",
+          "dateCreated": "2022-05-15T20:38:16.76Z",
+          "dateReleased": "2023-10-27T16:49:22.337Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dynamic-crosshair",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/Crendgrim/DynamicCrosshair/issues",
+            "sourceUrl": "https://github.com/Crendgrim/DynamicCrosshair"
+          },
+          "logo": {
+            "id": 547853,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/547/853/256/256/637882438968201811.png",
+            "title": "637882438968201811.png",
+            "url": "https://media.forgecdn.net/avatars/547/853/637882438968201811.png",
+            "modId": 623800
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 461545,
+              "description": "The square tool crosshair has a dot to mark this block as breakable, and there is a rounded bracket around it to indicate a \"use\" action: stripping the log.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/461/545/310/172/screenshot2.png",
+              "title": "Facing a log, wielding an axe, in the default configuration",
+              "url": "https://media.forgecdn.net/attachments/461/545/screenshot2.png",
+              "modId": 623800
+            },
+            {
+              "id": 461544,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/461/544/310/172/screenshot1.png",
+              "title": "Hides the crosshair when not targetting anything",
+              "url": "https://media.forgecdn.net/attachments/461/544/screenshot1.png",
+              "modId": 623800
+            }
+          ],
+          "mainFileId": 4819454
+        },
+        "curseForgeFile": {
+          "id": 4818099,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[Forge 1.20] Dynamic Crosshair 7.4.1",
+          "fileName": "dynamiccrosshair-7.4.1+1.20-forge.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-10-26T18:26:40.937Z",
+          "fileLength": 361544,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 667299,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3553229283,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2872871501,
+              "name": "dynamiccrosshair-common.mixins.json"
+            },
+            {
+              "fingerprint": 1613025998,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1959836776,
+              "name": "dynamiccrosshair-common-refmap.json"
+            },
+            {
+              "fingerprint": 1199841516,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 3082816859,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2090307017,
+              "name": "mod"
+            },
+            {
+              "fingerprint": 3706599588,
+              "name": "architectury_inject_dynamiccrosshair_common_3970725a25fe4523bce8605fe32b40a4_46fa170c95d7970519186c4a2ea2910b12108e80582e1f0d8d3c94d09c27fededynamiccrosshair741120devjar"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "818cfe86e932fcc31fa77e2b7d16b1a98786edc0",
+              "algo": 1
+            },
+            {
+              "value": "500531225285aac8bf6384114977c456",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge",
+            "1.20"
+          ],
+          "fileFingerprint": 2477324142,
+          "modId": 623800
+        },
+        "modrinthProject": {
+          "id": "ZcR9weSm",
+          "slug": "dynamiccrosshair",
+          "project_type": "mod",
+          "team": "Mm7chNKF",
+          "title": "Dynamic Crosshair",
+          "description": "A mod that hides or changes the crosshair dependent on context",
+          "body": "Dynamic Crosshair is a Minecraft mod for the Fabric & Forge launchers.\nIt hides or changes the crosshair dependent on context.\n\n**NOTE: From version 6 on, Cloth-Config has been dropped. Now [YetAnotherConfigLib](https://modrinth.com/mod/yacl) is needed for an ingame configuration screen, but the mod will work fine without.**\n\n## Features\n* Hide the crosshair when not looking at anything.\n* Hide or show it depending on what is being looked at.\n* Hide or show it depending on the currently equipped item.\n* Change the crosshair style for various situations.\n* Highly configurable.\n\n\n## Dependencies\nThis mod has been written for Minecraft >= 1.18.2.\n\n### Fabric version\n* requires [Fabric API](https://modrinth.com/mod/fabric-api)\n* versions up to 5.5 require [ClothConfig](https://modrinth.com/mod/cloth-config)\n* from version 6 upwards, there is an optional dependency on [YetAnotherConfigLib](https://modrinth.com/mod/yacl) for the ingame configuration screen\n* not required: [Mod Menu](https://modrinth.com/mod/modmenu) for ingame configuration screen\n\n### Forge version\n* versions up to 5.5 require [ClothConfig](https://modrinth.com/mod/cloth-config)\n* from version 6 upwards, there is an optional dependency on [YetAnotherConfigLib](https://modrinth.com/mod/yacl) for the ingame configuration screen\n\n## Mod Compatibility\nThis mod is very strongly coupled to vanilla Minecraft and has to hardcode a lot of interaction rules.\nThus, playing on a non-vanilla world will make the advanced features (context-dependent style) unreliable.\n\nIf you play with content mods, I recommend also installing [Dynamic Crosshair Compat](https://modrinth.com/mod/dynamiccrosshaircompat).\n\nIf you like dynamic UI elements, also check out my other mod [Auto HUD](https://modrinth.com/mod/autohud) that extends dynamic behaviour to most of the HUD.\n\nDynamicCrosshair is currently not compatible with [Exordium](https://modrinth.com/mod/exordium) (set its `enabledGui` setting to false to use its other features).",
+          "published": "2022-05-15T15:58:15.616504Z",
+          "updated": "2023-10-27T16:49:23.784797Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [],
+          "icon_url": "https://cdn.modrinth.com/data/ZcR9weSm/8da8af58ca961f937bd05d41dcefa26be7b5c182.png",
+          "issues_url": "https://github.com/Crendgrim/DynamicCrosshair/issues",
+          "source_url": "https://github.com/Crendgrim/DynamicCrosshair",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/ZcR9weSm/images/8db434688b23331aedd0dbd96a83198002492171.png",
+              "featured": false,
+              "title": "Facing a log, wielding an axe, in the default configuration.",
+              "description": "The square tool crosshair has a dot to mark this block as breakable, and there is a rounded bracket around it to indicate a \"use\" action: stripping the log.",
+              "created": "2022-05-15T15:59:59.761255Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/ZcR9weSm/images/34508a457d2bd13240300714343ee9669ee9ef15.png",
+              "featured": false,
+              "title": "Hides the crosshair when not targetting anything",
+              "created": "2022-05-15T15:59:36.254068Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "Vk1E4s8i",
+          "project_id": "ZcR9weSm",
+          "author_id": "bQuYYbeE",
+          "name": "[Forge 1.20] Dynamic Crosshair 7.4.1",
+          "version_number": "7.4.1+1.20-forge",
+          "changelog": "Slightly improve the crosshair mixin. This fixes the debug crosshair hiding, as well as a compatibility problem with Shoulder Surfing Mod + Do A Barrel Roll.",
+          "date_published": "2023-10-26T18:26:44.775569Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "0a8b0a8c6dd7556f841cad05262c6314e89699586cc1ab179fafcc0b2f349330d9159891cd710b693cbf29aadc0fd45a0f608e7f145a961fb4da5c395d902a5f",
+                "sha1": "818cfe86e932fcc31fa77e2b7d16b1a98786edc0"
+              },
+              "url": "https://cdn.modrinth.com/data/ZcR9weSm/versions/Vk1E4s8i/dynamiccrosshair-7.4.1%2B1.20-forge.jar",
+              "filename": "dynamiccrosshair-7.4.1+1.20-forge.jar",
+              "primary": true,
+              "size": 361544
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "1eAoo2KR",
+              "dependency_type": "optional"
+            }
+          ],
+          "game_versions": [
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Blur (Forge)",
+        "version": "[1.20.1] v3.1.1",
+        "optional": true,
+        "file": "blur-forge-3.1.1.jar",
+        "type": "mods",
+        "description": "Unofficial port of Blur Fabric on the Forge",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 823106,
+        "curseForgeFileId": 4906217,
+        "curseForgeProject": {
+          "id": 823106,
+          "name": "Blur (Forge)",
+          "authors": [
+            {
+              "id": 102141805,
+              "name": "dimadencep",
+              "url": "https://www.curseforge.com/members/102141805-dimadencep?username=dimadencep"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Unofficial port of Blur Fabric on the Forge",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "blur-forge",
+          "isFeatured": false,
+          "dateModified": "2023-11-27T16:55:04.893Z",
+          "dateCreated": "2023-02-07T17:06:19.537Z",
+          "dateReleased": "2023-11-27T16:50:03.66Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/blur-forge",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/dima-dencep/blur-forge/issues",
+            "sourceUrl": "https://github.com/dima-dencep/blur-forge"
+          },
+          "logo": {
+            "id": 773067,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/773/67/256/256/638113863795864164.png",
+            "title": "638113863795864164.png",
+            "url": "https://media.forgecdn.net/avatars/773/67/638113863795864164.png",
+            "modId": 823106
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 618269,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/618/269/310/172/2023-02-07_23.png",
+              "title": "Crafting Table",
+              "url": "https://media.forgecdn.net/attachments/618/269/2023-02-07_23.png",
+              "modId": 823106
+            },
+            {
+              "id": 618268,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/618/268/310/172/2023-02-07_23.png",
+              "title": "Chest",
+              "url": "https://media.forgecdn.net/attachments/618/268/2023-02-07_23.png",
+              "modId": 823106
+            },
+            {
+              "id": 618267,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/618/267/310/172/2023-02-07_23.png",
+              "title": "Creative GUI",
+              "url": "https://media.forgecdn.net/attachments/618/267/2023-02-07_23.png",
+              "modId": 823106
+            }
+          ],
+          "mainFileId": 4906395
+        },
+        "curseForgeFile": {
+          "id": 4906217,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[1.20.1] v3.1.1",
+          "fileName": "blur-forge-3.1.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-11-27T16:15:39.52Z",
+          "fileLength": 177259,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 544048,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 4906218,
+          "modules": [
+            {
+              "fingerprint": 2305068543,
+              "name": "LICENSE"
+            },
+            {
+              "fingerprint": 868049979,
+              "name": "mixins.blur.json"
+            },
+            {
+              "fingerprint": 2624275418,
+              "name": "blur-forge-refmap.json"
+            },
+            {
+              "fingerprint": 1895426717,
+              "name": "fabric.mod.json"
+            },
+            {
+              "fingerprint": 865644074,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1936594666,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 4049682077,
+              "name": "com"
+            },
+            {
+              "fingerprint": 235772855,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "562f34155f3849463449aeb1ab54cc7064e4bc86",
+              "algo": 1
+            },
+            {
+              "value": "1eb8a13698f8d4204094b5ea189c31d3",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 1712179068,
+          "modId": 823106
+        },
+        "modrinthProject": {
+          "id": "o4Wx4DUB",
+          "slug": "blur-forge",
+          "project_type": "mod",
+          "team": "1qFQMXID",
+          "title": "Blur Forge (Unofficial)",
+          "description": "Unofficial port of Blur Fabric on the Forge",
+          "body": "![Blur](https://i.imgur.com/PoBrnNM.jpg)\n\n## <center>Unofficial port of [Blur](https://modrinth.com/mod/blur-fabric) to new versions of Minecraft on Forge.</center>\n\n*<center>Blur* adds a Gaussian blur shader to the background of all GUIs, which fades into give it a sleek look. It is also highly configurable, so you can tune the look of the mod to your liking.</center>\n\n![Demonstration](https://i.imgur.com/EmSEKFu.gif)",
+          "published": "2023-02-07T16:30:15.900583Z",
+          "updated": "2023-11-27T16:50:05.205449Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "decoration"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/o4Wx4DUB/2fcf6f809b78cfd7c19e38620041efd6ba1a843d.png",
+          "issues_url": "https://github.com/dima-dencep/Blur-Forge/issues",
+          "source_url": "https://github.com/dima-dencep/Blur-Forge",
+          "discord_url": "https://discord.gg/jdB5JYX7W7",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/o4Wx4DUB/images/8cb944b5bd4358d6141a803de464a521aa8ecd1e.png",
+              "featured": false,
+              "title": "Chest",
+              "created": "2023-02-07T16:53:28.588136Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/o4Wx4DUB/images/09516698e062c0fc0fb18594859ec3e22f39dc86.png",
+              "featured": false,
+              "title": "Crafting Table",
+              "created": "2023-02-07T16:55:14.662295Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/o4Wx4DUB/images/84292324e9ea7056409d2d320cc77940d9a6781a.png",
+              "featured": false,
+              "title": "Creative GUI",
+              "created": "2023-02-07T16:51:49.995771Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "NOiJG3oF",
+          "project_id": "o4Wx4DUB",
+          "author_id": "caWpagRT",
+          "name": "[1.20.1] v3.1.1",
+          "version_number": "3.1.1+mc1.20.1",
+          "changelog": "",
+          "date_published": "2023-11-27T16:15:44.263909Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "9d35f532c40ca55eb054188e6293b6f57eecdb748da9bdbf68a0c2567101c09d62ac66f652602f0567247fe0fc6f5fc4d95fdc6c034ee22544d4ff2d3ae723c3",
+                "sha1": "562f34155f3849463449aeb1ab54cc7064e4bc86"
+              },
+              "url": "https://cdn.modrinth.com/data/o4Wx4DUB/versions/NOiJG3oF/blur-forge-3.1.1.jar",
+              "filename": "blur-forge-3.1.1.jar",
+              "primary": true,
+              "size": 177259
+            },
+            {
+              "hashes": {
+                "sha1": "a2f14862beae19c7bfbfb4b97d4cadb445a5ee7f",
+                "sha512": "c67c3728d468b613f6f617b46266c649ddc83daa4ef9099c2940f7f7fcedca1cc0a1e7e82992caebb18699ad201d06fd9f62d5384fea440afa16170281eae5c2"
+              },
+              "url": "https://cdn.modrinth.com/data/o4Wx4DUB/versions/NOiJG3oF/blur-forge-3.1.1-sources.jar",
+              "filename": "blur-forge-3.1.1-sources.jar",
+              "primary": false,
+              "size": 13035
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "5WeWGLoJ",
+              "dependency_type": "optional"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Panorama Creator",
+        "version": "spanorama-1.19-1.19.1-1.20.1-1.5.1",
+        "optional": true,
+        "file": "spanorama-1.5.1.jar",
+        "type": "mods",
+        "description": "Create and view custom panoramas on the main menu",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 366866,
+        "curseForgeFileId": 3913967,
+        "curseForgeProject": {
+          "id": 366866,
+          "name": "Panorama Creator",
+          "authors": [
+            {
+              "id": 28236942,
+              "name": "suppergerrie2",
+              "url": "https://www.curseforge.com/members/28236942-suppergerrie2?username=suppergerrie2"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Create and view custom panoramas on the main menu",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "panorama-creator",
+          "isFeatured": false,
+          "dateModified": "2023-07-14T09:24:34.953Z",
+          "dateCreated": "2020-03-12T11:24:25.767Z",
+          "dateReleased": "2022-08-03T09:46:26.773Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/panorama-creator",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/suppergerrie2/PanoramaMod/issues",
+            "sourceUrl": "https://github.com/suppergerrie2/PanoramaMod"
+          },
+          "logo": {
+            "id": 253864,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/253/864/256/256/637196090658101816.png",
+            "title": "637196090658101816.png",
+            "url": "https://media.forgecdn.net/avatars/253/864/637196090658101816.png",
+            "modId": 366866
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 3913967
+        },
+        "curseForgeFile": {
+          "id": 3913967,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "spanorama-1.19-1.19.1-1.20.1-1.5.1",
+          "fileName": "spanorama-1.5.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2022-08-03T09:46:26.773Z",
+          "fileLength": 16757,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3293558639,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2928054371,
+              "name": "com"
+            },
+            {
+              "fingerprint": 1975022132,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2832812654,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "83d16a5c0c5774ab4841f2d9858b7754f16e30e0",
+              "algo": 1
+            },
+            {
+              "value": "62230f60c5ada0f2c124a8383d933ed3",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000019.0000000001",
+              "gameVersion": "1.19.1",
+              "gameVersionReleaseDate": "2022-06-28T00:00:00Z",
+              "gameVersionName": "1.19.1"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000019",
+              "gameVersion": "1.19",
+              "gameVersionReleaseDate": "2022-06-07T15:38:07.377Z",
+              "gameVersionName": "1.19"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge",
+            "1.20",
+            "1.19.1",
+            "1.19"
+          ],
+          "fileFingerprint": 2045280949,
+          "modId": 366866
+        }
+      },
+      {
+        "name": "Panorama Screens",
+        "version": "[Forge 1.20] Panorama Screens 1.0",
+        "optional": true,
+        "file": "panorama_screens-1.0+forge+mc1.20.jar",
+        "type": "mods",
+        "description": "Enhance Minecraft menus by adding the rotating panorama background to most screens!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 854176,
+        "curseForgeFileId": 4575777,
+        "curseForgeProject": {
+          "id": 854176,
+          "name": "Panorama Screens",
+          "authors": [
+            {
+              "id": 101098181,
+              "name": "Im_JC52",
+              "url": "https://www.curseforge.com/members/101098181-im_jc52?username=im_jc52"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Enhance Minecraft menus by adding the rotating panorama background to most screens!",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "panorama-screens",
+          "isFeatured": false,
+          "dateModified": "2023-10-07T20:32:23.73Z",
+          "dateCreated": "2023-04-24T13:54:24.413Z",
+          "dateReleased": "2023-10-07T20:24:41.86Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/panorama-screens",
+            "issuesUrl": "https://github.com/juancarloscp52/panorama-screens/issues",
+            "sourceUrl": "https://github.com/juancarloscp52/panorama-screens"
+          },
+          "logo": {
+            "id": 808922,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/808/922/256/256/638179412644517933_animated.gif",
+            "title": "638179412644517933.gif",
+            "url": "https://media.forgecdn.net/avatars/808/922/638179412644517933.gif",
+            "modId": 854176
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 652190,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/652/190/310/172/fabric-banner.png",
+              "title": "Fabric Banner",
+              "url": "https://media.forgecdn.net/attachments/652/190/fabric-banner.png",
+              "modId": 854176
+            },
+            {
+              "id": 651705,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/651/705/310/172/animpan.gif",
+              "title": "Animated",
+              "url": "https://media.forgecdn.net/attachments/651/705/animpan.gif",
+              "modId": 854176
+            },
+            {
+              "id": 651711,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/651/711/310/172/clothconfig.png",
+              "title": "Cloth Config",
+              "url": "https://media.forgecdn.net/attachments/651/711/clothconfig.png",
+              "modId": 854176
+            },
+            {
+              "id": 651710,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/651/710/310/172/worldmenu.png",
+              "title": "World Menu",
+              "url": "https://media.forgecdn.net/attachments/651/710/worldmenu.png",
+              "modId": 854176
+            },
+            {
+              "id": 652189,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/652/189/310/172/forge-banner.png",
+              "title": "Forge Banner",
+              "url": "https://media.forgecdn.net/attachments/652/189/forge-banner.png",
+              "modId": 854176
+            },
+            {
+              "id": 651709,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/651/709/310/172/optionsmenu.png",
+              "title": "OptionsMenu",
+              "url": "https://media.forgecdn.net/attachments/651/709/optionsmenu.png",
+              "modId": 854176
+            },
+            {
+              "id": 651708,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/651/708/310/172/createworldscreen.png",
+              "title": "Create World Screen",
+              "url": "https://media.forgecdn.net/attachments/651/708/createworldscreen.png",
+              "modId": 854176
+            },
+            {
+              "id": 651674,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/651/674/310/172/logo-optimized.gif",
+              "title": "Logo",
+              "url": "https://media.forgecdn.net/attachments/651/674/logo-optimized.gif",
+              "modId": 854176
+            },
+            {
+              "id": 652191,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/652/191/310/172/versions-banner.png",
+              "title": "Versions Banner",
+              "url": "https://media.forgecdn.net/attachments/652/191/versions-banner.png",
+              "modId": 854176
+            }
+          ],
+          "mainFileId": 4786653
+        },
+        "curseForgeFile": {
+          "id": 4575777,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[Forge 1.20] Panorama Screens 1.0",
+          "fileName": "panorama_screens-1.0+forge+mc1.20.jar",
+          "releaseType": 2,
+          "fileStatus": 4,
+          "fileDate": "2023-06-09T12:17:31.227Z",
+          "fileLength": 233587,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 348521,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1169316881,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3079474907,
+              "name": "panorama_screen-common.mixins.json"
+            },
+            {
+              "fingerprint": 3982127235,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 411978236,
+              "name": "panorama_screens-common-refmap.json"
+            },
+            {
+              "fingerprint": 2006043660,
+              "name": "panorama_screen.mixins.json"
+            },
+            {
+              "fingerprint": 2566073183,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 746941634,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 217476517,
+              "name": "panorama_screens-forge-refmap.json"
+            },
+            {
+              "fingerprint": 1388704631,
+              "name": "me"
+            },
+            {
+              "fingerprint": 44282414,
+              "name": "architectury_inject_panoramascreens_common_6e631e090ba247fc97e23ee833c38ba3_28f08d70b608c6be9432564b7e4ea238d9b0b63b65dc449ad9f9bd2c819c8b68panorama_screens10mc120devjar"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "5ce53c726965c223c3a0d082ba029b33701f919f",
+              "algo": 1
+            },
+            {
+              "value": "5f057c53f6b798a6387430a91380fdce",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "Forge",
+            "1.20",
+            "1.20.1"
+          ],
+          "fileFingerprint": 2275251906,
+          "modId": 854176
+        },
+        "modrinthProject": {
+          "id": "4k0QM1rC",
+          "slug": "panorama-screens",
+          "project_type": "mod",
+          "team": "Us9fMwaF",
+          "title": "Panorama Screens",
+          "description": "Enhance Minecraft menus by adding the rotating panorama background to most screens!",
+          "body": "<p><img src=\"https://cdn.modrinth.com/data/4k0QM1rC/images/d6c93e4a7b4a108333644963c35fac0d080ea474.gif\" alt=\"Panorama Screens Banner\" width=\"1200\" height=\"563\" /></p><p style=\"text-align: center;\"><a title=\"Forge\" href=\"https://files.minecraftforge.net/net/minecraftforge/forge/\"><img src=\"https://media.forgecdn.net/attachments/652/189/forge-banner.png\" alt=\"\" width=\"100\" height=\"30\" /></a>&nbsp;&nbsp;&nbsp;<a title=\"Fabric\" href=\"https://fabricmc.net/\"><img src=\"https://media.forgecdn.net/attachments/652/190/fabric-banner.png\" alt=\"\" width=\"100\" height=\"30\" /></a>&nbsp;&nbsp;&nbsp;<a><img src=\"https://media.forgecdn.net/attachments/652/191/versions-banner.png\" alt=\"\" width=\"352\" height=\"30\" /></a></p>\n<p><span style=\"font-size: 14px;\">Panorama Screens is a mod that enhances Minecraft screens by adding the title screen rotating panorama background. It is also compatible and tested with lots of mods and allows the player to manually add the panorama screen with untested mods.</span></p>\n\nCompatible with both forge and fabric, minecraft versions, 1.18.2 and all 1.19 versions\n<h3 dir=\"auto\">Features</h3>\n<ul>\n<li><span style=\"font-size: 14px;\">High compatibility with other mods. <br /><em>Explicit compatibility with lots of mod config screen APIs (cloth-config, configured, etc) and tested in hundreds of other mods.</em></span></li>\n<li><span style=\"font-size: 14px;\">Configurable through Cloth Config.</span></li>\n<li><span style=\"font-size: 14px;\">Screen allow list for compatible screens/mods.</span></li>\n<li><span style=\"font-size: 14px;\">Screen block list for incompatible screens/mods.<br /></span></li>\n</ul>\n<h3>Screenshots</h3>\n<p><img src=\"https://media.forgecdn.net/attachments/651/708/createworldscreen.png\" alt=\"New World Screen\" width=\"1917\" height=\"1011\" /></p>\n<b>More screenshots in the <a href=\"https://modrinth.com/mod/panorama-screens/gallery\">gallery</a>!</b>\n<h3>Installation</h3>\n<h4>Forge:</h4>\n<p dir=\"auto\"><span style=\"font-size: 14px;\">This mod requires <a href=\"https://files.minecraftforge.net/\" rel=\"nofollow\">Forge</a> (Make sure to download the correct version). You can download Panorama Screens from the <a href=\"https://modrinth.com/mod/panorama-screens/\" rel=\"nofollow\">Modrinth</a>, make sure to download the forge version.</span></p>\n<ul dir=\"auto\">\n<li><span style=\"font-size: 14px;\">Install Forge.</span></li>\n<li><span style=\"font-size: 14px;\">Drop the mod jar inside the mods folder.</span></li>\n<li><span style=\"font-size: 14px;\">Optionally, download and install <a href=\"https://modrinth.com/mod/cloth-config\" rel=\"nofollow\">Cloth Config</a> to be able to access the config menu.</span></li>\n<li><span style=\"font-size: 14px;\">That's all!</span></li>\n</ul>\n<h4>Fabric:</h4>\n<p dir=\"auto\"><span style=\"font-size: 14px;\">This mod requires <a href=\"https://fabricmc.net/use/\" rel=\"nofollow\">Fabric</a> and <a href=\"https://www.curseforge.com/minecraft/mc-mods/fabric-api\" rel=\"nofollow\">Fabric API</a>. You can download Panorama Screens from <a href=\"https://modrinth.com/mod/panorama-screens/\" rel=\"nofollow\">Modrinth</a>, make sure to download the fabric version.</span></p>\n<ul dir=\"auto\">\n<li><span style=\"font-size: 14px;\">Install Fabric</span></li>\n<li><span style=\"font-size: 14px;\">Place Fabric API jar inside the mods folder.</span></li>\n<li><span style=\"font-size: 14px;\">Place Panorama Screens jar inside the mods folder.</span></li>\n<li><span style=\"font-size: 14px;\">Success!</span></li>\n</ul>\n<h3>License</h3>\n<p dir=\"auto\"><span style=\"font-size: 14px;\">Panorama Screens is released under the free and open-source <a href=\"https://github.com/juancarloscp52/panorama-screens/blob/1.19.4/LICENSE\">GPL-3.0 License</a>.</span></p>",
+          "published": "2023-04-24T15:09:03.813475Z",
+          "updated": "2023-10-07T20:19:54.224230Z",
+          "status": "approved",
+          "license": {
+            "id": "GPL-3.0-only",
+            "name": "GNU General Public License v3.0 only"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/4k0QM1rC/b6627629ad2f5433cd28f870f1bec7e0ea530a08.gif",
+          "issues_url": "https://github.com/juancarloscp52/panorama-screens/issues",
+          "source_url": "https://github.com/juancarloscp52/panorama-screens",
+          "donation_urls": [
+            {
+              "id": "paypal",
+              "platform": "PayPal",
+              "url": "https://www.paypal.com/paypalme/juancarloscp52"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/4k0QM1rC/images/571f121fe273fe6686834beea4ff66cbf3af7597.png",
+              "featured": false,
+              "title": "Create World Screen",
+              "description": "Create World Screen with panorama background",
+              "created": "2023-04-24T15:16:05.852521Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/4k0QM1rC/images/4f56b77f977723644483c715d7993e75a9982d79.png",
+              "featured": false,
+              "title": "Options Menu",
+              "description": "Options Menu with panorama background",
+              "created": "2023-04-24T15:17:03.039791Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/4k0QM1rC/images/2fbc604cc694b11fc65e7b3ed74c4fa97b1ad533.png",
+              "featured": false,
+              "title": "World Menu",
+              "description": "World Menu select screen with panorama background",
+              "created": "2023-04-24T15:18:25.316341Z",
+              "ordering": 2.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/4k0QM1rC/images/632f97fc2bdf9e32ea39a1fda0a586ead8c30af5.png",
+              "featured": false,
+              "title": "Cloth Config Demo",
+              "description": "Cloth config with panorama background enable",
+              "created": "2023-04-24T15:17:44.191798Z",
+              "ordering": 3.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/4k0QM1rC/images/d6c93e4a7b4a108333644963c35fac0d080ea474.gif",
+              "featured": true,
+              "title": "Banner",
+              "description": "Panorama Screens Banner",
+              "created": "2023-04-24T15:14:41.301690Z",
+              "ordering": 100.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "ppnTvZVX",
+          "project_id": "4k0QM1rC",
+          "author_id": "V8yy8wxR",
+          "name": "[Forge 1.20] Panorama Screens 1.0",
+          "version_number": "1.0+forge+mc1.20",
+          "changelog": "1.20 port",
+          "date_published": "2023-06-09T12:08:08.678701Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "ea42da5958248dc2e84302de9145a01500052c41fe1642f80fae1a9b47e93f442dc484ddb952052067a83c8199030aa8bc484cc8b36ecf2f6e5ff45cdf76d27e",
+                "sha1": "5ce53c726965c223c3a0d082ba029b33701f919f"
+              },
+              "url": "https://cdn.modrinth.com/data/4k0QM1rC/versions/ppnTvZVX/panorama_screens-1.0%2Bforge%2Bmc1.20.jar",
+              "filename": "panorama_screens-1.0+forge+mc1.20.jar",
+              "primary": true,
+              "size": 233587
+            }
+          ],
+          "dependencies": [
+            {
+              "version_id": "aAaLEVNM",
+              "project_id": "9s6osm5g",
+              "dependency_type": "optional"
+            }
+          ],
+          "game_versions": [
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1701618812525,
-    "numPlays": 90
+    "lastPlayed": 1701647575544,
+    "numPlays": 96
   },
   "id": "1.20.1",
   "complianceLevel": 1,
