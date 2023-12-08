@@ -1,0 +1,802 @@
+{
+  "nethers_exoticism:nethers_exoticism_adv": {
+    "criteria": {
+      "nethers_exoticism_adv": "2023-12-06 02:12:30 +0200"
+    },
+    "done": true
+  },
+  "morevillagers:root": {
+    "criteria": {
+      "always": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_egg": {
+    "criteria": {
+      "has_eggs": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "astikorcarts:recipes/supply_cart": {
+    "criteria": {
+      "has_wheel": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "astikorcarts:recipes/plow": {
+    "criteria": {
+      "has_wheel": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "woodland": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "gurkis:bannerflags": {
+    "criteria": {
+      "requirement": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:unlock_deep_pockets_book": {
+    "criteria": {
+      "exists": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "woodland": "2023-12-06 02:12:31 +0200",
+      "rainforest": "2023-12-06 02:13:30 +0200"
+    },
+    "done": false
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "bannerflags:root": {
+    "criteria": {
+      "requirement": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "astikorcarts:recipes/animal_cart": {
+    "criteria": {
+      "has_wheel": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "gurkis:root": {
+    "criteria": {
+      "requirement": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:give_book": {
+    "criteria": {
+      "tick": "2023-12-06 02:12:31 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/bamboo_galley": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/echo_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/spruce_cog": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/acacia_cog": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/azalea_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/willow_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/transportation/skyroot_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/jungle_cog": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/dark_oak_brigg": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/birch_galley": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/umbran_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/mangrove_brigg": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/dead_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/magic_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/jungle_brigg": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/spruce_galley": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/birch_cog": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/misc/sail": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/acacia_galley": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/jungle_galley": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/dark_oak_galley": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/bamboo_brigg": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/oak_brigg": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/bamboo_cog": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/transportation/springshroom_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/transportation/crystal_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/fir_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/transportation/blightwillow_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/oak_cog": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/oak_galley": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/acacia_brigg": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/redwood_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/transportation/fieldsprout_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "ancient_aether:recipes/transportation/sakura_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/mangrove_galley": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/dark_oak_cog": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/transportation/cloudcap_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/hellbark_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/jacaranda_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/mahogany_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/birch_brigg": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/coconut_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/palm_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/cherry_galley": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/flowering_azalea_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/cherry_brigg": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/spruce_brigg": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "ancient_aether:recipes/transportation/highsproot_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/transportation/glacia_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/mangrove_cog": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/cherry_cog": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-12-06 02:13:39 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_helmet_repairing": {
+    "criteria": {
+      "has_chainmail_helmet": "2023-12-06 02:15:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_chainmail_helmet": "2023-12-06 02:15:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_chainmail_helmet": "2023-12-06 02:15:27 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_helmet_repairing": {
+    "criteria": {
+      "has_iron_helmet": "2023-12-06 02:15:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2023-12-06 02:15:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_helmet": "2023-12-06 02:15:33 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_helmet_repairing": {
+    "criteria": {
+      "has_golden_helmet": "2023-12-06 02:15:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_helmet": "2023-12-06 02:15:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2023-12-06 02:15:35 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_helmet_repairing": {
+    "criteria": {
+      "has_diamond_helmet": "2023-12-06 02:15:35 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_helmet_repairing": {
+    "criteria": {
+      "has_netherite_helmet": "2023-12-06 02:15:37 +0200"
+    },
+    "done": true
+  },
+  "enderite:recipes/combat/enderite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_helmet_smithing": "2023-12-06 02:15:37 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_helmet_repairing": {
+    "criteria": {
+      "has_zanite_helmet": "2023-12-06 02:16:24 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/gravitite_helmet_repairing": {
+    "criteria": {
+      "has_gravitite_helmet": "2023-12-06 02:16:26 +0200"
+    },
+    "done": true
+  },
+  "aether:gravitite_armor": {
+    "criteria": {
+      "gravitite_chestplate": "2023-12-06 02:18:48 +0200",
+      "gravitite_helmet": "2023-12-06 02:16:26 +0200",
+      "gravitite_leggings": "2023-12-06 02:22:09 +0200"
+    },
+    "done": false
+  },
+  "aether:valkyrie_loot": {
+    "criteria": {
+      "valkyrie_helmet": "2023-12-06 02:16:29 +0200"
+    },
+    "done": true
+  },
+  "aether:phoenix_armor": {
+    "criteria": {
+      "phoenix_helmet": "2023-12-06 02:16:31 +0200"
+    },
+    "done": true
+  },
+  "aether:obsidian_armor": {
+    "criteria": {
+      "obsidian_helmet": "2023-12-06 02:16:33 +0200",
+      "obsidian_chestplate": "2023-12-06 02:18:54 +0200",
+      "obsidian_leggings": "2023-12-06 02:22:13 +0200"
+    },
+    "done": false
+  },
+  "deep_aether:recipes/combat/skyjade_helmet_repairing": {
+    "criteria": {
+      "has_skyjade_helmet": "2023-12-06 02:16:35 +0200"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_helmet_repairing": {
+    "criteria": {
+      "has_stratus_helmet": "2023-12-06 02:16:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-12-06 02:16:43 +0200"
+    },
+    "done": true
+  },
+  "simplemango:mango_seed_helmet": {
+    "criteria": {
+      "requirement": "2023-12-06 02:16:43 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-12-06 02:16:43 +0200"
+    },
+    "done": true
+  },
+  "enderite:end/obtain_enderite_armor": {
+    "criteria": {
+      "has_leggings": "2023-12-06 02:22:36 +0200",
+      "has_helmet": "2023-12-06 02:16:54 +0200",
+      "has_chestplate": "2023-12-06 02:19:07 +0200"
+    },
+    "done": false
+  },
+  "enderite:recipes/combat/gilded_enderite_helmet_smithing_from_golden_core": {
+    "criteria": {
+      "has_enderite_helmet_smithing_from_golden_core": "2023-12-06 02:16:54 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_chestplate_repairing": {
+    "criteria": {
+      "has_chainmail_chestplate": "2023-12-06 02:18:23 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_chestplate_repairing": {
+    "criteria": {
+      "has_iron_chestplate": "2023-12-06 02:18:35 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_chestplate_repairing": {
+    "criteria": {
+      "has_golden_chestplate": "2023-12-06 02:18:36 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_chestplate_repairing": {
+    "criteria": {
+      "has_diamond_chestplate": "2023-12-06 02:18:38 +0200"
+    },
+    "done": true
+  },
+  "enderite:recipes/combat/enderite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_chestplate_smithing": "2023-12-06 02:18:39 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_chestplate_repairing": {
+    "criteria": {
+      "has_netherite_chestplate": "2023-12-06 02:18:39 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/gravitite_chestplate_repairing": {
+    "criteria": {
+      "has_gravitite_chestplate": "2023-12-06 02:18:48 +0200"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_chestplate_repairing": {
+    "criteria": {
+      "has_skyjade_chestplate": "2023-12-06 02:18:56 +0200"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_chestplate_repairing": {
+    "criteria": {
+      "has_stratus_chestplate": "2023-12-06 02:18:57 +0200"
+    },
+    "done": true
+  },
+  "enderite:recipes/gilded_enderite_elytra_chestplate_smithing": {
+    "criteria": {
+      "has_gilded_enderite_chestplate_smithing": "2023-12-06 02:19:07 +0200"
+    },
+    "done": true
+  },
+  "enderite:recipes/combat/gilded_enderite_elytra_chestplate_smithing_from_golden_core": {
+    "criteria": {
+      "has_enderite_elytra_chestplate_smithing_from_golden_core": "2023-12-06 02:19:07 +0200"
+    },
+    "done": true
+  },
+  "enderite:end/obtain_enderite_elytra_chestplate": {
+    "criteria": {
+      "has_enderite_elytra_chestplate": "2023-12-06 02:19:07 +0200"
+    },
+    "done": true
+  },
+  "enderite:recipes/combat/gilded_enderite_chestplate_smithing_from_golden_core": {
+    "criteria": {
+      "has_enderite_chestplate_smithing_from_golden_core": "2023-12-06 02:19:11 +0200"
+    },
+    "done": true
+  },
+  "enderite:recipes/enderite_elytra_chestplate_smithing": {
+    "criteria": {
+      "has_enderite_chestplate_smithing": "2023-12-06 02:19:11 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_leggings_repairing": {
+    "criteria": {
+      "has_chainmail_leggings": "2023-12-06 02:21:51 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_leggings_repairing": {
+    "criteria": {
+      "has_iron_leggings": "2023-12-06 02:21:53 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_leggings_repairing": {
+    "criteria": {
+      "has_golden_leggings": "2023-12-06 02:21:55 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_leggings_repairing": {
+    "criteria": {
+      "has_diamond_leggings": "2023-12-06 02:21:58 +0200"
+    },
+    "done": true
+  },
+  "enderite:recipes/combat/enderite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_leggings_smithing": "2023-12-06 02:21:59 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_leggings_repairing": {
+    "criteria": {
+      "has_netherite_leggings": "2023-12-06 02:21:59 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_leggings_repairing": {
+    "criteria": {
+      "has_zanite_leggings": "2023-12-06 02:22:06 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/gravitite_leggings_repairing": {
+    "criteria": {
+      "has_gravitite_leggings": "2023-12-06 02:22:09 +0200"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_leggings_repairing": {
+    "criteria": {
+      "has_skyjade_leggings": "2023-12-06 02:22:15 +0200"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_leggings_repairing": {
+    "criteria": {
+      "has_stratus_leggings": "2023-12-06 02:22:16 +0200"
+    },
+    "done": true
+  },
+  "enderite:recipes/combat/gilded_enderite_leggings_smithing_from_golden_core": {
+    "criteria": {
+      "has_enderite_leggings_smithing_from_golden_core": "2023-12-06 02:22:36 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_chestplate_repairing": {
+    "criteria": {
+      "has_zanite_chestplate": "2023-12-06 02:23:56 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_boots_repairing": {
+    "criteria": {
+      "has_zanite_boots": "2023-12-06 02:23:57 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_gloves_repairing": {
+    "criteria": {
+      "has_zanite_gloves": "2023-12-06 02:23:59 +0200"
+    },
+    "done": true
+  },
+  "cosmeticarmoursmod:cosmetic_armours_achievement": {
+    "criteria": {
+      "cosmetic_armours_achievement": "2023-12-07 23:29:55 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
